@@ -8,6 +8,10 @@ Please visit https://affective-meld.github.io for more details.
 
 To download the data please visit - http://bit.ly/MELD-raw
 
+# Paper
+
+The paper explaining this dataset can be found - https://github.com/SenticNet/MELD/blob/master/MELD.pdf
+
 # Raw data
 
 Raw data can be obtained by downloading each XXX.tar.gz file
@@ -38,3 +42,12 @@ Raw data can be obtained by downloading each XXX.tar.gz file
 - test_sent_emo.csv - contains the utterances in the test set along with Sentiment and Emotion labels.
 
 ###### Note: The utterances with serial no. '-1' are  only provided in the 'xxx_emotion.csv' files.
+
+# Citation
+
+Please cite the following papers if you find this dataset useful in your research 
+
+S. Poria, D. Hazarika, N. Majumder, G. Naik, R. Mihalcea, E. Cambria. Multimodal EmotionLines:
+A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
+
+Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W. EmotionLines: An Emotion Corpus of Multi-Party Conversations. arXiv preprint arXiv:1802.08379 (2018).
