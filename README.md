@@ -6,7 +6,6 @@ Multimodal EmotionLines Dataset (MELD) has been created by enhancing and extendi
 
 Please visit https://affective-meld.github.io for more details.
 
-To download the data please visit - http://bit.ly/MELD-raw
 
 # Paper
 
@@ -14,7 +13,7 @@ The paper explaining this dataset can be found - https://github.com/SenticNet/ME
 
 # Raw data
 
-Raw data can be obtained by downloading each XXX.tar.gz file
+Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files.
 
 # Description of the .csv files
 
