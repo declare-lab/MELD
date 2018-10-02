@@ -262,8 +262,8 @@ def prepare_bimodal(ID, text, audio):
 
 def load_bimodal_data():
 
-    TEXT_UNIMODAL = "./output/text_unimodal_{}.pkl".format(MODE.lower())
-    AUDIO_UNIMODAL = "./output/audio_unimodal_{}.pkl".format(MODE.lower())
+    TEXT_UNIMODAL = "data/pickles/text_unimodal_{}.pkl".format(MODE.lower())
+    AUDIO_UNIMODAL = "data/pickles/audio_unimodal_{}.pkl".format(MODE.lower())
     #Load features
     train_text_x, val_text_x, test_text_x = pickle.load(open(TEXT_UNIMODAL, "rb"), encoding='latin1')
     train_audio_x, val_audio_x, test_audio_x = pickle.load(open(AUDIO_UNIMODAL, "rb"), encoding='latin1')
