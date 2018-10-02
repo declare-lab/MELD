@@ -47,7 +47,7 @@ Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored 
 
 ###### Note: The utterances with serial no. '-1' are  only provided in the 'xxx_emotion.csv' files.
 
-# Rule the baseline
+# Run the baseline
 
 Please follow these steps to run the baseline - 
 
