@@ -1,7 +1,7 @@
 # MELD v1.0
 ----------------------------------------------------
 
-MELD: A Multimodal Multi-Party\\ Dataset for Emotion~Recognition in Conversation
+MELD: A Multimodal Multi-Party Dataset for Emotion~Recognition in Conversation
 
 
 # Introduction
