@@ -47,6 +47,16 @@ Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored 
 
 ###### Note: The utterances with serial no. '-1' are  only provided in the 'xxx_emotion.csv' files.
 
+# Rule the baseline
+
+Please follow these steps to run the baseline - 
+
+1. Download the features from https://drive.google.com/drive/u/3/folders/1y4nj9rBMHyEvfLNMcpoKsXm9cGdAcZpy
+sentiment.p and emotion.p contains the multimodal features for sentiment and emotion classification respectively.
+2. Copy these features into "/data/pickles/"
+3. If you want to run sentiment baseline, change MODE = "sentiment" in data_helpers.py. To run emotion baseline just change MODE = "emotion"
+4. Run ''python model_multimodal.py''
+
 # Citation
 Please cite the following papers if you find this dataset useful in your research
 
