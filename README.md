@@ -58,8 +58,9 @@ Please follow these steps to run the baseline -
 
 1. Download the features from http://bit.ly/MELD-features
 2. Copy these features into "/data/pickles/"
-3. If you want to run sentiment baseline, change MODE = "sentiment" in data_helpers.py. Similarly, use MODE = "emotion" to run emotion baseline.
-4. Run ''python model_multimodal.py'' for multimodal baseline.
+3. To train/test the baseline model, run the file: `baseline.py` as follows:
+> - python baseline.py -classify [Sentiment|Emotion] -modality [text|audio|bimodal] [-train|-test]  
+> - example command to train text unimodal for sentiment classification: python baseline.py -classify Sentiment -modality text -train
 
 # Citation
 Please cite the following papers if you find this dataset useful in your research
