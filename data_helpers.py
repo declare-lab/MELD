@@ -36,7 +36,7 @@ class Dataloader:
                 - word_idx_map: mapping of each word from vocab to its index in W
                 - label_index: mapping of each label (emotion or sentiment) to its assigned index, eg. label_index['neutral']=0
         """
-        x = pickle.load(open("../data/pickles/data_{}.p".format(self.MODE.lower()),"rb"))
+        x = pickle.load(open("./data/pickles/data_{}.p".format(self.MODE.lower()),"rb"))
         revs, self.W, self.word_idx_map, self.vocab, _, label_index = x[0], x[1], x[2], x[3], x[4], x[5]
         self.num_classes = len(label_index)
         print("Labels used for this classification: ", label_index)
@@ -176,7 +176,7 @@ class Dataloader:
 
     def load_audio_data(self, ):
 
-        AUDIO_PATH = "../data/pickles/audio_embeddings_feature_selection_{}.pkl".format(self.MODE.lower())
+        AUDIO_PATH = "./data/pickles/audio_embeddings_feature_selection_{}.pkl".format(self.MODE.lower())
         self.train_audio_emb, self.val_audio_emb, self.test_audio_emb = pickle.load(open(AUDIO_PATH,"rb"))
         
         self.get_dialogue_audio_embs()
