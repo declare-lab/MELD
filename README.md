@@ -78,6 +78,6 @@ Please follow these steps to run the baseline -
 # Citation
 Please cite the following papers if you find this dataset useful in your research
 
-S. Poria, D. Hazarika, N. Majumder, G. Naik, R. Mihalcea, E. Cambria. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
+S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
 
 Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W. EmotionLines: An Emotion Corpus of Multi-Party Conversations. arXiv preprint arXiv:1802.08379 (2018).
