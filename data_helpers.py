@@ -138,6 +138,7 @@ class Dataloader:
 
         def get_labels(ids, data):
             dialogue_label=[]
+
             for vid, utts in ids.items():
                 local_labels=[]
                 for utt in utts:
@@ -193,6 +194,7 @@ class Dataloader:
 
 
     def load_bimodal_data(self,):
+        
         TEXT_UNIMODAL = "./data/pickles/text_{}.pkl".format(self.MODE.lower())
         AUDIO_UNIMODAL = "./data/pickles/audio_{}.pkl".format(self.MODE.lower())
 
@@ -204,7 +206,6 @@ class Dataloader:
             bimodal=[]
             for vid, utts in ID.items():
                 bimodal.append(np.concatenate( (text[vid],audio[vid]) , axis=1))
-                # bimodal.append(text[vid])
             return np.array(bimodal)
 
         self.train_dialogue_features = concatenate_fusion(self.train_dialogue_ids, train_text_x, train_audio_x)
