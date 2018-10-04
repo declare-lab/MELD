@@ -193,7 +193,6 @@ class bc_LSTM:
 		
 		inputs = Input(shape=(self.sequence_length, self.embedding_dim), dtype='float32')
 		masked = Masking(mask_value =0)(inputs)
-		# lstm = Bidirectional(LSTM(300, activation='tanh', return_sequences = True, dropout=0.3))(masked)
 		lstm = Bidirectional(LSTM(300, activation='tanh', return_sequences = True, dropout=0.4), name="utter")(masked)
 		output = TimeDistributed(Dense(self.classes,activation='softmax'))(lstm)
 
