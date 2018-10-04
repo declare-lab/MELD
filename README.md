@@ -57,12 +57,12 @@ Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored 
 Please follow these steps to run the baseline - 
 
 1. Download the features from [here](http://bit.ly/MELD-features).
-2. Copy these features into "/data/pickles/"
+2. Copy these features into `./data/pickles/`
 3. To train/test the baseline model, run the file: `baseline.py` as follows:
     - `python baseline.py -classify [Sentiment|Emotion] -modality [text|audio|bimodal] [-train|-test]` 
     - example command to train text unimodal for sentiment classification: `python baseline.py -classify Sentiment -modality text -train`
     - use `python baseline.py -h` to get help text for the parameters.
-4. For pre-trained models, download the model weights from [here](http://bit.ly/2RpJER6) and place the pickle files inside `/data/models/`.
+4. For pre-trained models, download the model weights from [here](http://bit.ly/2RpJER6) and place the pickle files inside `./data/models/`.
 
 # Citation
 Please cite the following papers if you find this dataset useful in your research
