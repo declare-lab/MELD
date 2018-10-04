@@ -14,10 +14,8 @@ from sklearn.metrics import accuracy_score
 import os, pickle
 import numpy as np
 
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152Masking
-os.environ["CUDA_VISIBLE_DEVICES"]="1"
-
-
+# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152Masking
+# os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
 class bc_LSTM:
 
@@ -78,7 +76,7 @@ class bc_LSTM:
 		print("Confusion Matrix :")
 		print(confusion_matrix(true_label, predicted_label))
 		print("Classification Report :")
-		print(classification_report(true_label, predicted_label))
+		print(classification_report(true_label, predicted_label, digits=4))
 		print('Weighted FScore: \n ', precision_recall_fscore_support(true_label, predicted_label, average='weighted'))
 
 
@@ -186,7 +184,7 @@ class bc_LSTM:
 
 		# Modality specific hyperparameters
 		self.epochs = 100
-		self.batch_size = 50
+		self.batch_size = 10
 
 		# Modality specific parameters
 		self.embedding_dim = self.train_x.shape[2]
@@ -195,8 +193,8 @@ class bc_LSTM:
 		
 		inputs = Input(shape=(self.sequence_length, self.embedding_dim), dtype='float32')
 		masked = Masking(mask_value =0)(inputs)
-		lstm = Bidirectional(LSTM(300, activation='tanh', return_sequences = True, dropout=0.4))(masked)
-		lstm = Bidirectional(LSTM(300, activation='tanh', return_sequences = True, dropout=0.4), name="utter")(lstm)
+		# lstm = Bidirectional(LSTM(300, activation='tanh', return_sequences = True, dropout=0.3))(masked)
+		lstm = Bidirectional(LSTM(300, activation='tanh', return_sequences = True, dropout=0.4), name="utter")(masked)
 		output = TimeDistributed(Dense(self.classes,activation='softmax'))(lstm)
 
 		model = Model(inputs, output)
@@ -207,15 +205,17 @@ class bc_LSTM:
 
 	def train_model(self):
 
+		checkpoint = ModelCheckpoint(self.PATH, monitor='val_loss', verbose=1, save_best_only=True, mode='auto')
+
 		if self.modality == "audio":
 			model = self.get_audio_model()
+			model.compile(optimizer='adadelta', loss='categorical_crossentropy', sample_weight_mode='temporal')
 		elif self.modality == "text":
 			model = self.get_text_model()
+			model.compile(optimizer='adadelta', loss='categorical_crossentropy', sample_weight_mode='temporal')
 		elif self.modality == "bimodal":
 			model = self.get_bimodal_model()
-
-		checkpoint = ModelCheckpoint(self.PATH, monitor='val_loss', verbose=1, save_best_only=True, mode='auto')
-		model.compile(optimizer='adadelta', loss='categorical_crossentropy', sample_weight_mode='temporal')
+			model.compile(optimizer='adam', loss='categorical_crossentropy', sample_weight_mode='temporal')
 
 		early_stopping = EarlyStopping(monitor='val_loss', patience=10)
 		model.fit(self.train_x, self.train_y,

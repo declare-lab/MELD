@@ -204,6 +204,7 @@ class Dataloader:
             bimodal=[]
             for vid, utts in ID.items():
                 bimodal.append(np.concatenate( (text[vid],audio[vid]) , axis=1))
+                # bimodal.append(text[vid])
             return np.array(bimodal)
 
         self.train_dialogue_features = concatenate_fusion(self.train_dialogue_ids, train_text_x, train_audio_x)
