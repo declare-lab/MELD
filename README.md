@@ -11,7 +11,18 @@ Multimodal EmotionLines Dataset (MELD) has been created by enhancing and extendi
 ![](https://github.com/SenticNet/MELD/blob/master/images/emotion_shift.jpeg)
 
 ### Dataset Statistics
-![](https://github.com/SenticNet/MELD/blob/master/images/sc4.png)
+| Statistics                      | Train   | Dev     | Test    |
+|---------------------------------|---------|---------|---------|
+| # of modality                   | {a,v,t} | {a,v,t} | {a,v,t} |
+| # of unique words               | 10,643  | 2,384   | 4,361   |
+| Avg. utterance length           | 8.03    | 7.99    | 8.28    |
+| Max. utterance length           | 69      | 37      | 45      |
+| Avg. # of emotions per dialogue | 3.30    | 3.35    | 3.24    |
+| # of dialogues                  | 1039    | 114     | 280     |
+| # of utterances                 | 9989    | 1109    | 2610    |
+| # of speakers                   | 260     | 47      | 100     |
+| # of emotion shift              | 4003    | 427     | 1003    |
+| Avg. duration of an utterance   | 3.59s   | 3.59s   | 3.58s   |
 
 Please visit https://affective-meld.github.io for more details.
 
