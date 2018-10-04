@@ -14,8 +14,8 @@ from sklearn.metrics import accuracy_score
 import os, pickle
 import numpy as np
 
-# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152Masking
-# os.environ["CUDA_VISIBLE_DEVICES"]="1"
+# os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+# os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 class bc_LSTM:
 
