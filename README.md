@@ -36,7 +36,7 @@ The first step deals with finding the timestamp of every utterance in each of th
 Constraining with these two conditions revealed that in EmotionLines, a few dialogues consist of multiple natural dialogues. We filtered out those cases from the dataset. Because of this error correction step, in our case, we have the different number of dialogues as compare to the EmotionLines. After obtaining the timestamp of each utterance, we extracted their corresponding audio-visual clips from the source episode. Separately, we also took out the audio content from those video clips. Finally, the dataset contains visual, audio, and textual modality for each dialogue.
 
 # Paper
-The paper explaining this dataset can be found - https://github.com/SenticNet/MELD/blob/master/MELD.pdf
+The paper explaining this dataset can be found - https://arxiv.org/pdf/1810.02508.pdf
 
 # Download the data
 Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files.
