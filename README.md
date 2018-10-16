@@ -63,6 +63,16 @@ Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored 
 - dev_sent_emo.csv - contains the utterances in the dev set along with Sentiment and Emotion labels.
 - test_sent_emo.csv - contains the utterances in the test set along with Sentiment and Emotion labels.
 
+# Description of Raw Data
+- There are 3 folders (.tar.gz files)-train, dev and test; each of which corresponds to video clips from the utterances in the 3 .csv files.
+- In any folder, each video clip in the raw data corresponds to one utterance in the corresponding .csv file. The video clips are named in the format: diaX1\_uttX2.mp4, where X1 is the Dialogue\_ID and X2 is the Utterance_ID as provided in the corresponding .csv file, denoting the particular utterance.
+- For example, consider the video clip **dia6_utt1.mp4** in **train.tar.gz**. The corresponding utterance for this video clip will be in the file **train_sent_emp.csv** with **Dialogue_ID=6** and **Utterance_ID=1**, which is *'You liked it? You really liked it?'*
+
+# Labelling
+For experimentation, all the labels are represented as one-hot encodings, the indices for which are as follows:
+- **Emotion** - {'neutral': 0, 'surprise': 1, 'fear': 2, 'sadness': 3, 'joy': 4, 'disgust': 5, 'anger': 6}. Therefore, the label corresponding to the emotion *'joy'* would be [0., 0., 0., 0., 1., 0., 0.]
+- **Sentiment** - {'neutral': 0, 'positive': 1, 'negative': 2}. Therefore, the label corresponding to the sentiment *'positive'* would be [0., 1., 0.]
+
 # Run the baseline
 
 Please follow these steps to run the baseline - 
