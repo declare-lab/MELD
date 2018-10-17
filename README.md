@@ -83,7 +83,7 @@ Please follow these steps to run the baseline -
     - `python baseline.py -classify [Sentiment|Emotion] -modality [text|audio|bimodal] [-train|-test]` 
     - example command to train text unimodal for sentiment classification: `python baseline.py -classify Sentiment -modality text -train`
     - use `python baseline.py -h` to get help text for the parameters.
-4. For pre-trained models, download the model weights from [here](http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz) and place the pickle files inside `./data/models/`.
+4. For pre-trained models, download the model weights from [here](http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Features.Models.tar.gz) and place the pickle files inside `./data/models/`.
 
 # Citation
 Please cite the following papers if you find this dataset useful in your research
