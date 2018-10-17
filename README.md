@@ -39,7 +39,7 @@ Constraining with these two conditions revealed that in EmotionLines, a few dial
 The paper explaining this dataset can be found - https://arxiv.org/pdf/1810.02508.pdf
 
 # Download the data
-Please visit - http://bit.ly/MELD-raw to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files.
+Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files.
 
 # Description of the .csv files
 
@@ -77,13 +77,13 @@ For experimentation, all the labels are represented as one-hot encodings, the in
 
 Please follow these steps to run the baseline - 
 
-1. Download the features from [here](http://bit.ly/MELD-features).
+1. Download the features from [here](http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Features.Models.tar.gz).
 2. Copy these features into `./data/pickles/`
 3. To train/test the baseline model, run the file: `baseline.py` as follows:
     - `python baseline.py -classify [Sentiment|Emotion] -modality [text|audio|bimodal] [-train|-test]` 
     - example command to train text unimodal for sentiment classification: `python baseline.py -classify Sentiment -modality text -train`
     - use `python baseline.py -h` to get help text for the parameters.
-4. For pre-trained models, download the model weights from [here](http://bit.ly/2RpJER6) and place the pickle files inside `./data/models/`.
+4. For pre-trained models, download the model weights from [here](http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz) and place the pickle files inside `./data/models/`.
 
 # Citation
 Please cite the following papers if you find this dataset useful in your research
