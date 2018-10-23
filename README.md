@@ -91,3 +91,33 @@ Please cite the following papers if you find this dataset useful in your researc
 S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
 
 Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W. EmotionLines: An Emotion Corpus of Multi-Party Conversations. arXiv preprint arXiv:1802.08379 (2018).
+
+# Additionaly we also release:
+### Multimodal EmoryNLP Emotion Detection Dataset
+#### Description
+Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and extending EmoryNLP Emotion Detection dataset. It contains the same dialogue instances available in EmoryNLP Emotion Detection dataset, but it also encompasses audio and visual modality along with text. It has more than 800 scenes and 9000 utterances from Friends TV series. Multiple speakers participated in the scenes. Each utterance in a scene has been labeled by any of these seven emotions -- Neutral, Joyful, Peaceful, Powerful, Scared, Mad and Sad. The annotations are borrowed from the original dataset.
+#### Dataset Statistics
+| Statistics                      | Train   | Dev     | Test    |
+|---------------------------------|---------|---------|---------|
+| # of modality                   | {a,v,t} | {a,v,t} | {a,v,t} |
+| # of unique words               | 9,744  | 2,123   | 2,345   |
+| Avg. utterance length           | 7.86    | 6.97    | 7.79    |
+| Max. utterance length           | 78      | 60      | 61      |
+| Avg. # of emotions per scene | 4.10    | 4.00    | 4.40    |
+| # of scenes                  | 659    | 89     | 79     |
+| # of utterances                 | 7551    | 954    | 984    |
+| # of speakers                   | 250     | 46      | 48     |
+| # of emotion shift              | 4596    | 575     | 653    |
+| Avg. duration of an utterance   | 5.55s   | 5.46s   | 5.27s   |
+
+#### Data
+The dataset can be found [here](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE).
+There are 3 .csv files along with the .zip files which contain the video clips. The .csv files are provided so that the user can correlate the particular utterance to its video clip. Each utterance video clip is indexed by the season no., episode no., scene id and utterance id. as given in the .csv files corresponding to a particular utterance. For example, **sea1\_ep2\_sc6\_utt3.mp4** implies the clip corresponds to the utterance with season no. 1, episode no. 2, scene\_id 6 and utterance\_id 3. The indexing is in agreement with the original dataset. The .csv files and the video files are divided into the train, validation and test set in accordance with the original dataset.
+
+***Note***: There are few utterances for which we were not able to find the start and end time due to its difference with the subtitles. Such utterances have been omitted from the dataset. However, the user is free to find the corresponding utterances from the original dataset and generate video clips for the same.
+#### Citation
+Please cite the following papers if you find this dataset useful in your research
+
+S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
+
+Emotion Detection on TV Show Transcripts with Sequence-based Convolutional Neural Networks. Sayyed Zahiri and Jinho D. Choi. In The AAAI Workshop on Affective Content Analysis, AFFCON'18, 2018.
