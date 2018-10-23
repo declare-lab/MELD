@@ -93,9 +93,9 @@ S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal
 Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W. EmotionLines: An Emotion Corpus of Multi-Party Conversations. arXiv preprint arXiv:1802.08379 (2018).
 
 # Additionaly we also release:
-### Multimodal EmoryNLP Emotion Detection Dataset
+### Multimodal EmoryNLP Emotion Recognition Dataset
 #### Description
-Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and extending EmoryNLP Emotion Detection dataset. It contains the same dialogue instances available in EmoryNLP Emotion Detection dataset, but it also encompasses audio and visual modality along with text. It has more than 800 scenes and 9000 utterances from Friends TV series. Multiple speakers participated in the scenes. Each utterance in a scene has been labeled by any of these seven emotions -- Neutral, Joyful, Peaceful, Powerful, Scared, Mad and Sad. The annotations are borrowed from the original dataset.
+Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and extending EmoryNLP Emotion Detection dataset. It contains the same dialogue instances available in EmoryNLP Emotion Detection dataset, but it also encompasses audio and visual modality along with text. There are more than 800 dialogues and 9000 utterances from Friends TV series exist in the multimodal EmoryNLP dataset. Multiple speakers participated in the dialogues. Each utterance in a dialogue has been labeled by any of these seven emotions -- Neutral, Joyful, Peaceful, Powerful, Scared, Mad and Sad. The annotations are borrowed from the original dataset.
 #### Dataset Statistics
 | Statistics                      | Train   | Dev     | Test    |
 |---------------------------------|---------|---------|---------|
@@ -104,7 +104,7 @@ Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and 
 | Avg. utterance length           | 7.86    | 6.97    | 7.79    |
 | Max. utterance length           | 78      | 60      | 61      |
 | Avg. # of emotions per scene | 4.10    | 4.00    | 4.40    |
-| # of scenes                  | 659    | 89     | 79     |
+| # of dialogues                  | 659    | 89     | 79     |
 | # of utterances                 | 7551    | 954    | 984    |
 | # of speakers                   | 250     | 46      | 48     |
 | # of emotion shift              | 4596    | 575     | 653    |
@@ -112,7 +112,7 @@ Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and 
 
 #### Data
 Video clips of this dataset can be download from [this link](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE).
-The annotation files can be found in https://github.com/senticnet/MELD/data/emorynlp/. There are 3 .csv files. Each entry in the first column of these csv files contain an utterance whose corresponding video clip can be found [here](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE). Each utterance and its video clip is indexed by the season no., episode no., scene id and utterance id. as given in the .csv files corresponding to a particular utterance. For example, **sea1\_ep2\_sc6\_utt3.mp4** implies the clip corresponds to the utterance with season no. 1, episode no. 2, scene\_id 6 and utterance\_id 3. A scene is simply a dialogue. This indexing is consistent with the original dataset. The .csv files and the video files are divided into the train, validation and test set in accordance with the original dataset. Annotations have been directly borrowed from the original EmoryNLP dataset (Zahiri et al. (2018)).
+The annotation files can be found in https://github.com/senticnet/MELD/data/emorynlp/. There are 3 .csv files. Each entry in the first column of these csv files contain an utterance whose corresponding video clip can be found [here](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE). Each utterance and its video clip is indexed by the season no., episode no., scene id and utterance id. For example, **sea1\_ep2\_sc6\_utt3.mp4** implies the clip corresponds to the utterance with season no. 1, episode no. 2, scene\_id 6 and utterance\_id 3. A scene is simply a dialogue. This indexing is consistent with the original dataset. The .csv files and the video files are divided into the train, validation and test set in accordance with the original dataset. Annotations have been directly borrowed from the original EmoryNLP dataset (Zahiri et al. (2018)).
 
 ***Note***: There are a few utterances for which we were not able to find the start and end time due inconsistency in the subtitles. Such utterances have been omitted from the dataset. However, we encourage the users to find the corresponding utterances from the original dataset and generate video clips for the same.
 #### Citation
