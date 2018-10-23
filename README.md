@@ -48,7 +48,7 @@ Constraining with these two conditions revealed that in EmotionLines, a few dial
 The paper explaining this dataset can be found - https://arxiv.org/pdf/1810.02508.pdf
 
 ## Download the data
-Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files. Annotations can be found in https://github.com/SenticNet/MELD/data/MELD/.
+Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files. Annotations can be found in https://github.com/SenticNet/MELD/tree/master/data/MELD.
 
 ## Description of the .csv files
 
