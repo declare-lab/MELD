@@ -103,6 +103,7 @@ Chen, S.Y., Hsu, C.C., Kuo, C.C. and Ku, L.W. EmotionLines: An Emotion Corpus of
 
 # Additionaly we also release:
 ### Multimodal EmoryNLP Emotion Recognition Dataset
+----------------------------------------------------
 #### Description
 Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and extending EmoryNLP Emotion Detection dataset. It contains the same dialogue instances available in EmoryNLP Emotion Detection dataset, but it also encompasses audio and visual modality along with text. There are more than 800 dialogues and 9000 utterances from Friends TV series exist in the multimodal EmoryNLP dataset. Multiple speakers participated in the dialogues. Each utterance in a dialogue has been labeled by any of these seven emotions -- Neutral, Joyful, Peaceful, Powerful, Scared, Mad and Sad. The annotations are borrowed from the original dataset.
 #### Dataset Statistics
