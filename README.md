@@ -79,7 +79,7 @@ Please follow these steps to run the baseline -
 
 1. Download the features from [here](http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Features.Models.tar.gz).
 2. Copy these features into `./data/pickles/`
-3. To train/test the baseline model, run the file: `baseline.py` as follows:
+3. To train/test the baseline model, run the file: `baseline/baseline.py` as follows:
     - `python baseline.py -classify [Sentiment|Emotion] -modality [text|audio|bimodal] [-train|-test]` 
     - example command to train text unimodal for sentiment classification: `python baseline.py -classify Sentiment -modality text -train`
     - use `python baseline.py -h` to get help text for the parameters.
