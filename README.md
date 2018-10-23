@@ -111,13 +111,13 @@ Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and 
 | Avg. duration of an utterance   | 5.55s   | 5.46s   | 5.27s   |
 
 #### Data
-The dataset containing video files can be found [here](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE).
-The annotation files can be found in https://github.com/senticnet/MELD/data/emorynlp/. There are 3 .csv files. The .csv files are provided so that the user can find the particular utterance to its video clip. Each utterance video clip is indexed by the season no., episode no., scene id and utterance id. as given in the .csv files corresponding to a particular utterance. For example, **sea1\_ep2\_sc6\_utt3.mp4** implies the clip corresponds to the utterance with season no. 1, episode no. 2, scene\_id 6 and utterance\_id 3. The indexing is in agreement with the original dataset. The .csv files and the video files are divided into the train, validation and test set in accordance with the original dataset. Annotations have been directly borrowed from the original EmoryNLP dataset (Zahiri et al. (2018)).
+Video clips of this dataset can be download from [this link](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE).
+The annotation files can be found in https://github.com/senticnet/MELD/data/emorynlp/. There are 3 .csv files. Each entry in the first column of these csv files contain an utterance whose corresponding video clip can be found [here](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE). Each utterance and its video clip is indexed by the season no., episode no., scene id and utterance id. as given in the .csv files corresponding to a particular utterance. For example, **sea1\_ep2\_sc6\_utt3.mp4** implies the clip corresponds to the utterance with season no. 1, episode no. 2, scene\_id 6 and utterance\_id 3. A scene is simply a dialogue. This indexing is consistent with the original dataset. The .csv files and the video files are divided into the train, validation and test set in accordance with the original dataset. Annotations have been directly borrowed from the original EmoryNLP dataset (Zahiri et al. (2018)).
 
-***Note***: There are few utterances for which we were not able to find the start and end time due to its difference with the subtitles. Such utterances have been omitted from the dataset. However, the user is free to find the corresponding utterances from the original dataset and generate video clips for the same.
+***Note***: There are a few utterances for which we were not able to find the start and end time due inconsistency in the subtitles. Such utterances have been omitted from the dataset. However, we encourage the users to find the corresponding utterances from the original dataset and generate video clips for the same.
 #### Citation
 Please cite the following papers if you find this dataset useful in your research
 
-S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
-
 S. Zahiri and J. D. Choi. Emotion Detection on TV Show Transcripts with Sequence-based Convolutional Neural Networks. In The AAAI Workshop on Affective Content Analysis, AFFCON'18, 2018.
+
+S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
