@@ -77,7 +77,7 @@ Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to 
 - In any folder, each video clip in the raw data corresponds to one utterance in the corresponding .csv file. The video clips are named in the format: diaX1\_uttX2.mp4, where X1 is the Dialogue\_ID and X2 is the Utterance_ID as provided in the corresponding .csv file, denoting the particular utterance.
 - For example, consider the video clip **dia6_utt1.mp4** in **train.tar.gz**. The corresponding utterance for this video clip will be in the file **train_sent_emp.csv** with **Dialogue_ID=6** and **Utterance_ID=1**, which is *'You liked it? You really liked it?'*
 
-# Reading the Data
+## Reading the Data
 There are 2 python scripts provided in './utils/':
 - read_meld.py \- displays the path of the video file corresponding to an utterance in the .csv file from MELD.
 - read_emorynlp \- displays the path of the video file corresponding to an utterance in the .csv file from Multimodal EmoryNLP Emotion Detection dataset.
