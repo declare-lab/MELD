@@ -26,6 +26,17 @@ Multimodal EmotionLines Dataset (MELD) has been created by enhancing and extendi
 
 Please visit https://affective-meld.github.io for more details.
 
+### Dataset Distribution
+
+|          | Train | Dev | Test |
+|----------|-------|-----|------|
+| Anger    | 1109  | 153 | 345  |
+| Disgust  | 271   | 22  | 68   |
+| Fear     | 268   | 40  | 50   |
+| Joy      | 1743  | 163 | 402  |
+| Neutral  | 4710  | 470 | 1256 |
+| Sadness  | 683   | 111 | 208  |
+| Surprise | 1205  | 150 | 281  |
 
 
 # Purpose
@@ -109,6 +120,18 @@ Multimodal EmoryNLP Emotion Detection Dataset has been created by enhancing and 
 | # of speakers                   | 250     | 46      | 48     |
 | # of emotion shift              | 4596    | 575     | 653    |
 | Avg. duration of an utterance   | 5.55s   | 5.46s   | 5.27s   |
+
+#### Dataset Distribution
+
+|          | Train | Dev | Test |
+|----------|-------|-----|------|
+| Joyful   | 1677  | 205 | 217  |
+| Mad      | 785   | 97  | 86   |
+| Neutral  | 2485  | 322 | 288  |
+| Peaceful | 638   | 82  | 111  |
+| Powerful | 551   | 70  | 96   |
+| Sad      | 474   | 51  | 70   |
+| Scared   | 941   | 127 | 116  |
 
 #### Data
 Video clips of this dataset can be download from [this link](https://drive.google.com/open?id=1gmK8X3mAEV3Eubd6rSpIyOprrSYE5YZE).
