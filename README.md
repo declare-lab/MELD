@@ -1,5 +1,11 @@
 # MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation
 
+***As some users reported an error in the train.tar.gz file, here is an alternate link to it while we fix the old link - https://drive.google.com/uc?id=1LgBQDIUPmx0SiMOGKxM4v33ig9CSO_Ps&export=download
+
+You may execute this command to download this file on Linux based system -
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1LgBQDIUPmx0SiMOGKxM4v33ig9CSO_Ps' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1LgBQDIUPmx0SiMOGKxM4v33ig9CSO_Ps" -O train.tar.gz && rm -rf /tmp/cookies.txt
+
 ----------------------------------------------------
 
 ## Introduction
