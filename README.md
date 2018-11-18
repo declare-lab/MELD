@@ -1,6 +1,6 @@
 # MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation
 
-### News
+### Updates
 
 15/11/2018: The problem in the train.tar.gz has been fixed.
 
