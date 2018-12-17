@@ -121,7 +121,7 @@ class bc_LSTM:
 		sentence_length = self.train_x.shape[2]
 
 		# Initializing sentence representation layers
-		embedding = Embedding(input_dim=self.vocabulary_size, output_dim=self.embedding_dim, weights=[self.data.W], input_length=self.sequence_length, trainable=False)
+		embedding = Embedding(input_dim=self.vocabulary_size, output_dim=self.embedding_dim, weights=[self.data.W], input_length=sentence_length, trainable=False)
 		conv_0 = Conv2D(self.num_filters, kernel_size=(self.filter_sizes[0], self.embedding_dim), padding='valid', kernel_initializer='normal', activation='relu')
 		conv_1 = Conv2D(self.num_filters, kernel_size=(self.filter_sizes[1], self.embedding_dim), padding='valid', kernel_initializer='normal', activation='relu')
 		conv_2 = Conv2D(self.num_filters, kernel_size=(self.filter_sizes[2], self.embedding_dim), padding='valid', kernel_initializer='normal', activation='relu')
