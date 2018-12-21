@@ -165,4 +165,4 @@ Please cite the following papers if you find this dataset useful in your researc
 
 S. Zahiri and J. D. Choi. Emotion Detection on TV Show Transcripts with Sequence-based Convolutional Neural Networks. In The AAAI Workshop on Affective Content Analysis, AFFCON'18, 2018.
 
-S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. Multimodal EmotionLines: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
+S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, R. Mihalcea. MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation. (2018)
