@@ -76,6 +76,28 @@ Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to 
 - /data/MELD/dev_sent_emo.csv - contains the utterances in the dev set along with Sentiment and Emotion labels.
 - /data/MELD/test_sent_emo.csv - contains the utterances in the test set along with Sentiment and Emotion labels.
 
+## Description of Pickle Files
+There are 13 pickle files comprising of the data and features used for training the baseline models. Following is a brief description of each of the pickle files.
+- **data_emotion.p** - contains 5 different elements stored as a list. Index *0* consists of a dictionary comprising of each utterance along with its dialogue id, utterance id, emotion label, length(number of words) and its split (train, val, test). Index *1* consists of the embedding matrix with word embeddings stored according to the word-index mapping. Index *2* consists of the dictionary with word-index mapping. Index *3* consists of a similar mapping with different indices. Index *4* consists of the maximum utterance length. Index *5* consists of the order of emotion label encoding. 
+- **data_sentiment.p** - same as data_emotion.p except that at Index *0* it consists of sentiment label corresponding to each utterance and at Index *5* contains the order of sentiment label encoding.
+- **text_sentiment.pkl** - It consists of 600 dimensional textual feature vector for each utterance for sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. 
+- **bimodal_sentiment.pkl** - It consists of 600 dimensional bimodal(text, audio) feature vector for each utterance for sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set.
+- **audio_sentiment.pkl** - It consists of 600 dimensional audio feature vector for each utterance for sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set.
+- **text_emotion.pkl** - It consists of 600 dimensional textual feature vector for each utterance for emotion classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set.
+- **audio_emotion.pkl** - It consists of 300 dimensional audio feature vector for each utterance for emotion classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set.
+- **text_glove_average_sentiment.pkl** - It consists of 300 dimensional textual feature vectors of each utterance initialized as the average of the embeddings of all tokens and trained for sentiment classification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id.
+- **text_glove_CNN_emotion.pkl** - It consists of 100 dimensional textual features obtained after training on a CNN-based network for emotion calssification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id.
+- **text_glove_CNN_sentiment.pkl** - It consists of 100 dimensional textual features obtained after training on a CNN-based network for sentiment calssification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id.
+- **text_glove_average_emotion.pkl** - It consists of 300 dimensional textual feature vectors of each utterance initialized as the average of the embeddings of all tokens and trained for emotion classification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id.
+- **audio_embeddings_feature_selection_emotion.pkl** - It consists of 1611 dimensional audio feature vectors of each utterance trained for emotion classification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id.
+- **audio_embeddings_feature_selection_sentiment.pkl** - It consists of 1422 dimensional audio feature vectors of each utterance trained for sentiment classification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id.
+
+All the pickle files can be loaded with the following code in python:
+```python
+import pickle
+data = pickle.load(open(<filepath>, 'rb'))
+```
+
 ## Description of Raw Data
 - There are 3 folders (.tar.gz files)-train, dev and test; each of which corresponds to video clips from the utterances in the 3 .csv files.
 - In any folder, each video clip in the raw data corresponds to one utterance in the corresponding .csv file. The video clips are named in the format: diaX1\_uttX2.mp4, where X1 is the Dialogue\_ID and X2 is the Utterance_ID as provided in the corresponding .csv file, denoting the particular utterance.
