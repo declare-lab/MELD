@@ -75,6 +75,9 @@ Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to 
 - /data/MELD/train_sent_emo.csv - contains the utterances in the training set along with Sentiment and Emotion labels.
 - /data/MELD/dev_sent_emo.csv - contains the utterances in the dev set along with Sentiment and Emotion labels.
 - /data/MELD/test_sent_emo.csv - contains the utterances in the test set along with Sentiment and Emotion labels.
+- /data/MELD_Dyadic/train_sent_emo_dya.csv - contains the utterances in the training set of the dyadic variant of MELD along with Sentiment and Emotion labels. For getting the video clip corresponding to a particular utterance refer to the columns 'Old_Dialogue_ID' and 'Old_Utterance_ID'.
+- /data/MELD_Dyadic/dev_sent_emo_dya.csv - contains the utterances in the dev set of the dyadic variant along with Sentiment and Emotion labels. For getting the video clip corresponding to a particular utterance refer to the columns 'Old_Dialogue_ID' and 'Old_Utterance_ID'.
+- /data/MELD_Dyadic/test_sent_emo_dya.csv - contains the utterances in the test set of the dyadic variant along with Sentiment and Emotion labels. For getting the video clip corresponding to a particular utterance refer to the columns 'Old_Dialogue_ID' and 'Old_Utterance_ID'.
 
 ## Description of Pickle Files
 There are 13 pickle files comprising of the data and features used for training the baseline models. Following is a brief description of each of the pickle files.
