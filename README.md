@@ -144,6 +144,10 @@ For experimentation, all the labels are represented as one-hot encodings, the in
 - **Emotion** - {'neutral': 0, 'surprise': 1, 'fear': 2, 'sadness': 3, 'joy': 4, 'disgust': 5, 'anger': 6}. Therefore, the label corresponding to the emotion *'joy'* would be [0., 0., 0., 0., 1., 0., 0.]
 - **Sentiment** - {'neutral': 0, 'positive': 1, 'negative': 2}. Therefore, the label corresponding to the sentiment *'positive'* would be [0., 1., 0.]
 
+## Class Weights
+For the baseline on emotion classification, the following class weights were used. The indexing is the same as mentioned above.
+Class Weights: [4.0, 15.0, 15.0, 3.0, 1.0, 6.0, 3.0].
+
 ## Run the baseline
 
 Please follow these steps to run the baseline - 
