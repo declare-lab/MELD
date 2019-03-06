@@ -661,7 +661,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 707,Go get back on that case honey!,Rachel,anger,negative,72,13,8,23,"0:19:42,795","0:19:45,986"
 708,I dont think the next patient is very far along.,Nurse,neutral,neutral,72,14,8,23,"00:19:46,131","00:19:49,176"
 709,"Okay, well then bring her in.",Rachel,neutral,neutral,72,15,8,23,"00:19:49,384","00:19:52,971"
-710,OH.MY.GAWD!!!,Woman,surprise,positive,72,16,8,23,"00:20:01,146","00:20:06,568"
+710,"OH.MY.GAWD!!!",Woman,surprise,positive,72,16,8,23,"00:20:01,146","00:20:06,568"
 711,"Ross-Ross-Ross-Ross! Stay away from that guy , and that guy . And that oneDude! Theyre all huge!",Joey,fear,negative,73,0,4,15,"00:11:26,811","00:11:34,234"
 712,They dont look any bigger than me!,Ross,neutral,neutral,73,1,4,15,"00:11:35,111","00:11:36,778"
 713,"Well, maybe thats because youre closer to you. So you look bigger to you from where you are.",Joey,anger,negative,73,2,4,15,"00:11:36,946","00:11:40,990"
@@ -781,7 +781,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 831,This works with any milk carton.,Mike,neutral,neutral,89,1,8,19,"00:04:10,793","00:04:13,837"
 832,"Wow, it is easy.  Now, I can have milk everyday.",Joey,surprise,positive,89,2,8,19,"00:04:10,793","00:04:17,675"
 833,"Well, you might want to tell him it sounds like his wife is  gay.",Rachel,neutral,neutral,90,0,6,16,"00:19:04,893","00:19:11,065"
-834,She is not  Shes gay. Oh my God. She is,Ross,anger,negative,90,1,6,16,"00:19:11,233","00:19:27,957"
+834,"She is not  Shes gay. Oh my God. She is",Ross,anger,negative,90,1,6,16,"00:19:11,233","00:19:27,957"
 835,Good day for married people huh?,Rachel,surprise,negative,90,2,6,16,"00:19:34,464","00:19:37,049"
 836,Im sorry your husband cheated on you.,Ross,sadness,negative,90,3,6,16,"00:19:39,595","00:19:41,888"
 837,Im sorry your wife is gay. I guess women arent that great either.,Rachel,sadness,negative,90,4,6,16,"00:19:42,055","00:19:50,563"
@@ -1450,11 +1450,11 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1516,"Oh, my ex-wife didnt work, unless you call turning into her mother work. Fine. Tomorrow night then.",Doug,neutral,neutral,156,2,8,11,"00:10:41,432","00:10:51,524"
 1517,Oh uh well tomorrows no good for her either.,Chandler,neutral,neutral,156,3,8,11,"00:10:51,692","00:10:54,235"
 1518,Oh? Why not?,Doug,neutral,neutral,156,4,8,11,"00:10:54,403","00:10:55,445"
-1519,Its the semi-finalsof herbotchy ball tournament.,Chandler,neutral,neutral,156,5,8,11,"00:10:56,656","00:11:03,244"
+1519,"Its the semi-finalsof herbotchy ball tournament.",Chandler,neutral,neutral,156,5,8,11,"00:10:56,656","00:11:03,244"
 1520,"Whats going on Bing? Does uh, your wife have a problem with me or something?",Doug,anger,negative,156,6,8,11,"00:11:03,788","00:11:10,335"
 1521,Well now-now youre just talking crazy.,Chandler,joy,positive,156,7,8,11,"00:11:10,503","00:11:13,213"
 1522,So why cant the three of us go out together?,Doug,neutral,neutral,156,8,8,11,"00:11:13,381","00:11:16,424"
-1523,Because uhwe-wewe split up. Monica and I split up. Hold me.,Chandler,sadness,negative,156,9,8,11,"00:11:16,592","00:11:24,224"
+1523,"Because uhwe-wewe split up. Monica and I split up. Hold me.",Chandler,sadness,negative,156,9,8,11,"00:11:16,592","00:11:24,224"
 1524,"Good God Bing Iwell I cant say Im altogether surprised, I saw the way she looked at you, and there was no love there.",Doug,sadness,negative,156,10,8,11,"00:11:25,768","00:11:34,609"
 1525,"And the way she looked at me, pure lust.",Doug,joy,positive,156,11,8,11,"00:11:36,529","00:11:40,281"
 1526,Yknow what would really help me through this tough time is choking something. Can I choke ya?,Chandler,anger,negative,156,12,8,11,"00:11:40,825","00:11:45,370"
@@ -1598,7 +1598,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1673,Its Joey!,Phoebe,surprise,negative,169,11,8,2,"00:12:14,483","00:12:16,818"
 1674,Now I cant believe it! What? Rachels pregnant?  Whos the father?,Joey,surprise,positive,169,12,8,2,"00:12:21,407","00:12:25,869"
 1675,We dont know.,Phoebe,neutral,neutral,169,13,8,2,"00:12:26,120","00:12:27,996"
-1676,Ohh I wonder if that dude.,Joey,neutral,neutral,169,14,8,2,"0:12:30,249","0:12:32,771"
+1676,"Ohh I wonder if that dude.",Joey,neutral,neutral,169,14,8,2,"0:12:30,249","0:12:32,771"
 1677,Theres a dude?,Monica,surprise,negative,169,15,8,2,"0:12:32,771","0:12:33,045"
 1678,Yeah.,Joey,neutral,neutral,169,16,8,2,"0:12:33,169","0:12:33,801"
 1679,Who? Who is it?,Phoebe,surprise,negative,169,17,8,2,"0:12:33,801","0:12:35,090"
@@ -1637,7 +1637,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1713,"Oh, its okay. I dont",Chandler,neutral,neutral,173,10,6,17,"0:12:49,935","0:12:51,562"
 1714,"No-no, its not okay!",Monica,sadness,negative,173,11,6,17,"0:12:51,562","0:12:52,397"
 1715,Its not!,Monica,sadness,negative,173,12,6,17,"0:12:52,397","0:12:53,005"
-1716,I mean you were just Youre so incredible!,Monica,sadness,negative,173,13,6,17,"00:12:53,063","00:12:54,564"
+1716,"I mean you were just Youre so incredible!",Monica,sadness,negative,173,13,6,17,"00:12:53,063","00:12:54,564"
 1717,You went through all this time and effort to make this tape for me!,Monica,sadness,negative,173,14,6,17,"00:12:54,732","00:12:58,777"
 1718,"Yknow Im just gonnaI, I am gonna make this up to you!",Monica,joy,positive,173,15,6,17,"0:12:59,612","0:13:02,454"
 1719,I will!,Monica,sadness,negative,173,16,6,17,"0:13:02,454","0:13:03,304"
@@ -1824,7 +1824,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1923,"Yes, I made it!",Ross,joy,positive,193,0,8,12,"0:17:21,248","0:17:22,250"
 1924,Im on time!,Ross,joy,positive,193,1,8,12,"0:17:22,250","0:17:23,980"
 1925,"Okay, why dont we all uh,  open our books to page 23.",Ross,neutral,neutral,193,2,8,12,"00:17:29,757","00:17:37,680"
-1926,Where  Where you will seea uha bunch of uhred spots.,Ross,neutral,neutral,193,3,8,12,"00:17:37,931","00:17:45,438"
+1926,"Where  Where you will seea uha bunch of uhred spots.",Ross,neutral,neutral,193,3,8,12,"00:17:37,931","00:17:45,438"
 1927,"Okay,  umm, why dont, why dont you all start to read, while I",Ross,neutral,neutral,193,4,8,12,"00:17:51,070","00:17:55,990"
 1928,"Yeah, all right. All right! Just keep walkin'! All right?",Rachel,anger,negative,194,0,5,23,"00:17:27,629","00:17:30,923"
 1929,"Ross! What are you I'm sorry sir. I just, I think he just really likes you.",Rachel,neutral,neutral,194,1,5,23,"00:17:40,642","00:17:51,194"
@@ -2506,7 +2506,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2652,No! No!  No!  No-no-no-no.,Ross,joy,positive,266,16,5,23,"00:11:15,758","00:11:26,184"
 2657,Ah Joey.,Director,neutral,neutral,267,0,3,12,"0:14:48,220","0:14:49,182"
 2658,Joey Tribbiani.,Director,neutral,neutral,267,1,3,12,"0:14:49,182","0:14:50,909"
-2659,"Listen Joey, I got a problem, I just got a call from my dance captain, he's having a relationship crisis and can't get out of Long Island.",Director,neutral,neutral,267,2,3,12,"00:14:56,312","00:15:03,359"
+2659,"Listen Joey, I got a problem, I just got a call from my dance captain, he's having a relationship crisis and can't get out of Long Island.",Director,sadness,negative,267,2,3,12,"00:14:56,312","00:15:03,359"
 2660,"So, does that mean the audition is off?",Joey,sadness,negative,267,3,3,12,"00:15:03,527","00:15:05,653"
 2661,"Listen Joey, seeing as you've got the most experience, I want you to take these dancers and show them the combination.",Director,neutral,neutral,267,4,3,12,"00:15:05,821","00:15:13,161"
 2662,What?!,Joey,surprise,negative,267,5,3,12,"00:15:14,622","00:15:15,705"
@@ -2521,7 +2521,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2672,Hi there.,Doctor Connelly,neutral,neutral,268,3,9,22,"0:03:13,359","0:03:13,902"
 2673,Hi.,Chandler,neutral,neutral,268,4,9,22,"0:03:13,902","0:03:14,504"
 2674,Hi.,Monica,neutral,neutral,268,5,9,22,"0:03:14,504","0:03:14,714"
-2675,I'm sorry there wasn't better news from your test last week but I wanted to talk to you about your options.,Doctor Connelly,neutral,neutral,268,6,9,22,"00:03:14,777","00:03:20,782"
+2675,I'm sorry there wasn't better news from your test last week but I wanted to talk to you about your options.,Doctor Connelly,sadness,negative,268,6,9,22,"00:03:14,777","00:03:20,782"
 2676,Ok.,Monica,neutral,neutral,268,7,9,22,"00:03:20,950","00:03:21,992"
 2677,"Above all, even though your chances of conceiving through natural means aren't great, you never know!",Doctor Connelly,neutral,neutral,268,8,9,22,"0:03:22,160","0:03:27,262"
 2678,"So, keep having sex on a regular basis.",Doctor Connelly,neutral,neutral,268,9,9,22,"0:03:27,262","0:03:29,180"
@@ -2581,7 +2581,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2734,What are you guys doing?,Chandler,neutral,neutral,278,2,7,5,"00:00:12,137","00:00:13,929"
 2735,"Oh, my mom called, theyre gonna run our engagement announcement in the local paper, so were looking for a good picture of us.",Monica,joy,positive,278,3,7,5,"00:00:12,137","00:00:21,061"
 2736,"Oooh, Im afraid that does not exist.",Chandler,neutral,neutral,278,4,7,5,"00:00:16,975","00:00:21,061"
-2737,"Thats not true, there are great pictures of us!",Monica,surprise,positive,278,5,7,5,"00:00:21,896","00:00:23,814"
+2737,"Thats not true, there are great pictures of us!",Monica,anger,negative,278,5,7,5,"00:00:21,896","00:00:23,814"
 2738,"No, there are great pictures of you standing next to a guy whos going like this",Chandler,neutral,neutral,278,6,7,5,"00:00:23,982","00:00:28,152"
 2739,Oh my God! Thats the creep that youre with at the,Phoebe,surprise,negative,278,7,7,5,"00:00:29,696","00:00:33,157"
 2740,"I dont know what it is, I just cant take a good picture.",Chandler,sadness,negative,278,8,7,5,"00:00:35,368","00:00:38,078"
@@ -2606,6 +2606,6 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2759,"Yeah, fade the accent out and people will think you’re, y’know, that you’re adjusting to life in America.",Monica,anger,negative,279,10,6,4,"00:14:28,200","00:14:35,039"
 2760,"Yeah, I mean, come on Ross, no one will even notice. I mean they’re probably not even listening!",Rachel,neutral,neutral,279,11,6,4,"00:14:35,457","00:14:40,211"
 2761,They’re not listening too me?,Ross,surprise,negative,279,12,6,4,"00:14:42,256","00:14:43,840"
-2762,Of course they’re listening to you! Everybody listens to you.,Rachel,neutral,neutral,279,13,6,4,"00:14:44,008","00:14:48,511"
+2762,Of course they’re listening to you! Everybody listens to you.,Rachel,disgust,negative,279,13,6,4,"00:14:44,008","00:14:48,511"
 2763,Monica you really think I should try this phasing out thing?,Ross,neutral,neutral,279,14,6,4,"00:14:48,138","00:14:52,390"
-2764,I think you look fine.,Monica,neutral,neutral,279,15,6,4,"00:14:52,558","00:14:54,183"
+2764,I think you look fine.,Monica,Joy,positive,279,15,6,4,"00:14:52,558","00:14:54,183"
