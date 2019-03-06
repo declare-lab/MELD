@@ -140,7 +140,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 142,So much more.,Ross,neutral,neutral,13,3,8,8,"00:10:51,567","00:10:53,485"
 143,"Well, well to sum up, were having fun, you look young.",Ross,neutral,neutral,14,0,8,11,"00:13:42,112","00:13:53,456"
 144,Okay,Mona,neutral,neutral,14,1,8,11,"00:13:57,253","00:14:00,171"
-145,But thats not enough. So Soheres a key to my apartment.,Ross,neutral,neutral,14,2,8,11,"00:13:57,253","00:14:06,135"
+145,"But thats not enough. So Soheres a key to my apartment.",Ross,neutral,neutral,14,2,8,11,"00:13:57,253","00:14:06,135"
 146,Really?!,Mona,surprise,positive,14,3,8,11,"0:14:12,184","0:14:14,986"
 147,Really.,Ross,neutral,neutral,14,4,8,11,"0:14:14,986","0:14:15,320"
 148,You dont think this is too fast.,Mona,neutral,neutral,14,5,8,11,"00:14:16,897","00:14:20,316"
@@ -241,9 +241,9 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 244,"Dark, big hair, with the airplane earrings.",Rachel,neutral,neutral,23,6,3,11,"00:10:26,042","00:10:28,209"
 245,"No, no, no, thats Dina.",Monica,neutral,neutral,23,7,3,11,"00:10:28,377","00:10:30,420"
 246,"You see you cant tell which one is which either, dwha!!",Chandler,surprise,negative,23,8,3,11,"00:10:30,588","00:10:44,809"
-247,"I dont know, you thought See you Saturday was funny.",Rachel,neutral,neutral,24,0,3,14,"00:10:40,389","00:10:44,059"
+247,"I dont know, you thought See you Saturday was funny.",Rachel,anger,negative,24,0,3,14,"00:10:40,389","00:10:44,059"
 248,"Look honey, Mark is in fashion okay, I like having a friend that I can share this stuff with.",Rachel,neutral,neutral,24,1,3,14,"00:10:44,727","00:10:49,397"
-249,You guys would never want to go to a lecture with me.,Rachel,neutral,neutral,24,2,3,14,"00:10:49,565","00:10:51,483"
+249,You guys would never want to go to a lecture with me.,Rachel,sadness,negative,24,2,3,14,"00:10:49,565","00:10:51,483"
 250,Pa-haa!! I would love to go with you.,Ross,joy,positive,24,3,3,14,"00:10:54,987","00:10:56,571"
 251,Really!?,Rachel,surprise,positive,24,4,3,14,"00:10:56,739","00:10:57,864"
 252,"Yeah, hey I-I have clothes, I even pick them out.",Ross,neutral,neutral,24,5,3,14,"00:10:58,032","00:11:01,660"
@@ -276,8 +276,8 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 279,"Yeah because you all have such different looks, we're putting you with Raymond and Kyle with Ben.",The Casting Director,neutral,neutral,26,9,5,18,"00:10:20,411","00:10:25,665"
 280,So it'll be either you two  or you two.,The Casting Director,neutral,neutral,26,10,5,18,"00:10:25,833","00:10:28,585"
 281,"Man, this is gonna be kinda weird.",Joey,sadness,negative,26,11,5,18,"00:10:29,920","00:10:35,508"
-282,"Yeah, it is.",Ross,neutral,neutral,26,12,5,18,"00:10:32,757","00:10:35,508"
-283,"No, we-we're gonna be like best friends, that's why it's gonna be weird.",Ross,neutral,neutral,26,13,5,18,"00:10:40,514","00:10:44,142"
+282,"Yeah, it is.",Ross,sadness,negative,26,12,5,18,"00:10:32,757","00:10:35,508"
+283,"No, we-we're gonna be like best friends, that's why it's gonna be weird.",Ross,sadness,negative,26,13,5,18,"00:10:40,514","00:10:44,142"
 284,"Okay, come on, I can't get married until I get something old, something new, something borrowed, and something blue.",Monica,sadness,negative,27,0,5,24,"00:20:18,592","00:20:24,805"
 285,"Okay, all right, all right, all right! Okay!  Okay, here's something, here's something blue and new.",Chandler,joy,positive,27,1,5,24,"00:21:04,763","00:21:11,060"
 286,Please!,Ross,anger,negative,28,0,4,15,"0:19:16,989","0:19:19,201"
@@ -308,7 +308,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 312,"So Ross, what your problem?",Paul,anger,negative,30,4,6,21,"00:04:33,189","00:04:37,901"
 313,Eh-whExcuse me?,Ross,surprise,positive,30,5,6,21,"00:04:39,862","00:04:41,113"
 314,Why cant you get a girlfriend your own age?,Paul,anger,negative,30,6,6,21,"00:04:41,281","00:04:43,282"
-315,Thats funny. Umm.  Its not funny.,Ross,fear,negative,30,7,6,21,"00:04:43,992","00:04:52,374"
+315,"Thats funny. Umm.  Its not funny.",Ross,fear,negative,30,7,6,21,"00:04:43,992","00:04:52,374"
 316,I,Paul,neutral,neutral,30,8,6,21,"00:04:49,706","00:04:52,374"
 317,Okay.,Ross,neutral,neutral,30,9,6,21,"0:04:52,542","0:04:52,844"
 318,"I can, I can see that.",Ross,neutral,neutral,30,10,6,21,"0:04:52,844","0:04:55,338"
@@ -350,20 +350,20 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 335,Hi guys.,Monica,neutral,neutral,33,7,6,24,"00:04:23,805","00:04:26,306"
 336,You are beautiful.,Chandler,joy,positive,33,8,6,24,"00:04:28,142","00:04:32,020"
 337,"Oh, thank you!   Whats going on?",Monica,joy,positive,33,9,6,24,"00:04:37,402","00:04:44,616"
-338,Were just reallyvery excited about this charity event that we have to go to.,Rachel,neutral,neutral,33,10,6,24,"00:04:39,570","00:04:44,616"
+338,"Were just reallyvery excited about this charity event that we have to go to.",Rachel,neutral,neutral,33,10,6,24,"00:04:39,570","00:04:44,616"
 339,"Okay umm, Ross?",Rachel,neutral,neutral,34,0,5,23,"00:14:24,321","00:14:25,500"
 340,"I'm-I'm really warm, so I'm going to be taking off my sweater.",Rachel,neutral,neutral,34,1,5,23,"00:14:24,321","00:14:28,992"
 341,"Now, I'm just letting you know that this is",Rachel,neutral,neutral,34,2,5,23,"00:14:29,201","00:14:32,500"
 342,Yep! That's hilarious!,Ross,joy,positive,34,3,5,23,"00:14:37,918","00:14:40,086"
 343,I'm sorry. I'm done. I'm done.,Rachel,neutral,neutral,34,4,5,23,"00:14:40,921","00:14:42,922"
-344,"Y'know, last night was embarrassing for you too.",Ross,neutral,neutral,34,5,5,23,"00:14:43,132","00:14:46,259"
+344,"Y'know, last night was embarrassing for you too.",Ross,sadness,negative,34,5,5,23,"00:14:43,132","00:14:46,259"
 345,"No, not really. I mean you've seen me naked hundreds of times.",Rachel,neutral,neutral,34,6,5,23,"00:14:46,468","00:14:48,386"
-346,Uh-huh. But it was a first for the rest of my building.,Ross,neutral,neutral,34,7,5,23,"00:14:48,386","00:14:49,386"
-347,"Okay. All right, that's true! But y'know I just don't embarrass that easily.",Rachel,neutral,neutral,34,8,5,23,"00:14:48,596","00:14:51,389"
-348,What?! You totally get embarrassed!,Ross,surprise,positive,34,9,5,23,"00:14:51,599","00:14:53,725"
-349,"No, I don't! Ross, I think I'm just a more secure person than you are.",Rachel,neutral,neutral,34,10,5,23,"00:14:53,934","00:14:58,521"
-350,Is that so?,Ross,neutral,neutral,34,11,5,23,"0:14:58,731","0:14:59,732"
-351,Yeah.,Rachel,neutral,neutral,34,12,5,23,"0:14:59,732","0:15:00,469"
+346,Uh-huh. But it was a first for the rest of my building.,Ross,sadness,negative,34,7,5,23,"00:14:48,386","00:14:49,386"
+347,"Okay. All right, that's true! But y'know I just don't embarrass that easily.",Rachel,anger,negative,34,8,5,23,"00:14:48,596","00:14:51,389"
+348,What?! You totally get embarrassed!,Ross,surprise,negative,34,9,5,23,"00:14:51,599","00:14:53,725"
+349,"No, I don't! Ross, I think I'm just a more secure person than you are.",Rachel,anger,negative,34,10,5,23,"00:14:53,934","00:14:58,521"
+350,Is that so?,Ross,anger,negative,34,11,5,23,"0:14:58,731","0:14:59,732"
+351,Yeah.,Rachel,anger,negative,34,12,5,23,"0:14:59,732","0:15:00,469"
 352,Hey lady! I don't care how much you want it! Okay?! I am,Ross,disgust,negative,34,13,5,23,"00:15:02,234","00:15:06,029"
 353,I cant believe it!,Phoebe,surprise,positive,35,0,7,9,"0:21:24,783","0:21:26,494"
 354,I did it!,Phoebe,joy,positive,35,1,7,9,"0:21:26,494","0:21:27,676"
@@ -572,7 +572,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 587,And Bobbys gonna be here the whole time.,Dina,neutral,neutral,54,5,8,10,"00:19:46,810","00:19:50,771"
 588,"You bet I am!  And to answer your earlier question, were straight-up gangster rap.",Bobby,joy,positive,54,6,8,10,"00:19:50,939","00:19:55,943"
 589,"Look, Rachels told me how much easier youve made all this on her. Why cant you do that for me?",Dina,anger,negative,54,7,8,10,"00:19:59,698","00:20:07,445"
-590,Because! Cause Cause youre my baby sister!,Joey,sadness,negative,54,8,8,10,"00:20:07,623","00:20:09,582"
+590,"Because! Cause Cause youre my baby sister!",Joey,sadness,negative,54,8,8,10,"00:20:07,623","00:20:09,582"
 591,And youre my big brother!,Dina,joy,positive,54,9,8,10,"00:20:09,750","00:20:11,250"
 592,"I mean, youre my favorite guy in the whole world.",Dina,neutral,neutral,54,10,8,10,"00:20:11,418","00:20:14,670"
 593,Im not even scared to tell mom and dad.,Dina,neutral,neutral,54,11,8,10,"0:20:14,838","0:20:17,174"
@@ -625,7 +625,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 641,"That fridge has got to be stocked, okay, thats your department now.",Monica,neutral,neutral,58,7,4,13,"00:02:57,635","00:03:00,721"
 642,What are you doing?,Monica,neutral,neutral,58,8,4,13,"0:03:04,642","0:03:05,602"
 643,I think I left a donut up here.,Joey,neutral,neutral,58,9,4,13,"0:03:05,602","0:03:08,138"
-644,"So, in conclusion, the lines all go up , so Im happy.",Doug,neutral,neutral,59,0,3,24,"00:20:58,548","00:21:03,552"
+644,"So, in conclusion, the lines all go up , so Im happy.",Doug,joy,positive,59,0,3,24,"00:20:58,548","00:21:03,552"
 645,Great job team!,Doug,joy,positive,59,1,3,24,"0:21:04,429","0:21:05,361"
 646,Tomorrow at 8:30.,Doug,neutral,neutral,59,2,3,24,"0:21:05,361","0:21:06,819"
 647,Phil!,Doug,joy,positive,59,3,3,24,"0:21:07,349","0:21:07,901"
@@ -659,7 +659,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 678,A freakish thin date with a hanger for her head?,Chandler,neutral,neutral,63,1,7,20,"00:09:58,014","00:10:07,772"
 679,"No. Rachel hooked me up with a tux! But not just any tux, Batmans tux!",Ross,joy,positive,63,2,7,20,"00:10:01,851","00:10:07,772"
 680,What?,Chandler,surprise,negative,63,3,7,20,"00:10:08,441","00:10:09,774"
-681,Thats right! Made expressly for Val Kilmer and worn by him in the hit filmthat Batman film he was in.,Ross,joy,positive,63,4,7,20,"00:10:08,441","00:10:17,699"
+681,"Thats right! Made expressly for Val Kilmer and worn by him in the hit filmthat Batman film he was in.",Ross,joy,positive,63,4,7,20,"00:10:08,441","00:10:17,699"
 682,You cant wear that! Im wearing the famous tux! James Bonds tux!,Chandler,anger,negative,63,5,7,20,"00:10:18,367","00:10:22,495"
 683,So?,Ross,neutral,neutral,63,6,7,20,"00:10:20,828","00:10:22,495"
 684,SoIf you wear that youll make mine less special.,Chandler,sadness,negative,63,7,7,20,"00:10:22,663","00:10:26,416"
@@ -888,7 +888,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 932,My drinking?,Rachel,neutral,neutral,94,0,4,9,"00:11:38,948","00:11:40,198"
 933,"Oh, I mustve said that after you left.",Joanna,neutral,neutral,94,1,4,9,"00:11:41,617","00:11:44,244"
 934,Said what? Exactly.,Rachel,fear,negative,94,2,4,9,"00:11:45,579","00:11:46,955"
-935,That you enjoyed the occasional drinking binge.,Joanna,neutral,neutral,94,3,4,9,"00:11:47,123","00:11:48,915"
+935,"That you enjoyed the occasional drinking binge.",Joanna,neutral,neutral,94,3,4,9,"00:11:47,123","00:11:48,915"
 936,"Oh my God!! Ohh, that is it! Im leaving! You are just a horrible person!",Rachel,disgust,negative,94,4,4,9,"00:11:52,211","00:11:58,299"
 937,Wait-wait-wait-wait-wait-wait-wait-wait!!,Joanna,fear,negative,94,5,4,9,"00:11:54,964","00:11:58,299"
 938,If youre gonna get all sensitive about it!,Joanna,anger,negative,94,6,4,9,"00:11:58,467","00:12:01,386"
@@ -933,7 +933,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 978,Hey!,Monica,joy,positive,99,1,7,19,"0:05:25,575","0:05:26,813"
 979,Yknow Im-Im really glad we decided not to sleep together before the wedding.,Chandler,joy,positive,99,2,7,19,"00:05:26,909","00:05:30,495"
 980,"Oh boy, me too!",Monica,joy,positive,99,3,7,19,"00:05:30,705","00:05:32,998"
-981,Yknow I was thinking if we had aa big fight and uh we broke up for a few hours,Chandler,neutral,neutral,99,4,7,19,"00:05:33,541","00:05:38,211"
+981,"Yknow I was thinking if we had aa big fight and uh we broke up for a few hours",Chandler,neutral,neutral,99,4,7,19,"00:05:33,541","00:05:38,211"
 982,Yeah?,Monica,fear,negative,99,5,7,19,"00:05:38,379","00:05:39,522"
 983,"Technically we could have sex again. What do you think, bossy and domineering?!",Chandler,neutral,neutral,99,6,7,19,"00:05:38,379","00:05:46,136"
 984,"The wedding is off, sloppy and immature!",Monica,anger,negative,99,7,7,19,"00:05:46,304","00:05:48,972"
@@ -1440,7 +1440,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1519,Hey its Mona! From the wedding.,Mona,joy,positive,155,2,8,5,"00:20:40,572","00:20:43,074"
 1520,Oh hi!,Ross,joy,positive,155,3,8,5,"0:20:43,242","0:20:44,953"
 1521,Hi!,Mona,joy,positive,155,4,8,5,"0:20:44,953","0:20:45,907"
-1522,Wow! Uhhow are you?,Ross,surprise,positive,155,5,8,5,"00:20:47,371","00:20:49,497"
+1522,"Wow! Uhhow are you?",Ross,surprise,positive,155,5,8,5,"00:20:47,371","00:20:49,497"
 1523,"Im good except umm, you still owe me a dance.",Mona,neutral,neutral,155,6,8,5,"00:20:49,665","00:20:56,170"
 1524,"Oh thats right. Well uh, would you be interested in seeing a Ukrainian film?",Ross,joy,positive,155,7,8,5,"00:20:51,458","00:20:56,170"
 1525,Oh youre serious. Sure!,Mona,surprise,positive,155,8,8,5,"00:20:58,465","00:21:00,383"
@@ -1653,7 +1653,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1745,"So, whats this about?",Tag,joy,positive,177,0,8,2,"00:15:57,122","00:15:58,790"
 1746,"Rachel has something that she wants to tell you and umm, I believe that this is your red sweater.",Phoebe,neutral,neutral,177,1,8,2,"00:15:58,999","00:16:05,922"
 1747,No.  This is my red sweater.,Tag,neutral,neutral,177,2,8,2,"00:16:06,090","00:16:10,218"
-1748,Oh no. Could I get anyone a coffee orpoison? No? Just for me? Okay.,Phoebe,fear,negative,177,3,8,2,"00:16:12,513","00:16:23,940"
+1748,"Oh no. Could I get anyone a coffee orpoison? No? Just for me? Okay.",Phoebe,fear,negative,177,3,8,2,"00:16:12,513","00:16:23,940"
 1749,Whats going on Rach?,Tag,joy,positive,177,4,8,2,"00:16:25,359","00:16:27,235"
 1750,"Nothing! Phoebe kinda made a mistake. But yknow you do wear that sweater a lot, are you involved in some kind of dare?",Rachel,fear,negative,177,5,8,2,"00:16:27,403","00:16:40,331"
 1751,"Yknow, Im actually glad Phoebe called.",Tag,joy,positive,177,6,8,2,"00:16:37,663","00:16:40,331"
@@ -1810,7 +1810,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 1910,He hooked up! He hooked up with someone.,Joey,surprise,positive,189,12,5,12,"00:09:55,845","00:10:00,390"
 1911,"Look, I don't have to answer your questions! Okay? I'm a big boy, I can do whatever I want!",Ross,anger,negative,189,13,5,12,"00:10:00,600","00:10:05,353"
 1912,He hooked up!! Tell us about her!,Joey,joy,positive,189,14,5,12,"00:10:05,563","00:10:11,067"
-1913,Ross you left you scarf in Hey you guys.,Janice,neutral,neutral,189,15,5,12,"00:10:11,861","00:10:22,454"
+1913,"Ross you left you scarf in Hey you guys.",Janice,neutral,neutral,189,15,5,12,"00:10:11,861","00:10:22,454"
 1915,"Oh yeah, that looks good.",Chandler,neutral,neutral,190,0,7,5,"0:21:24,783","0:21:26,702"
 1916,You guys make a,Phoebe,neutral,neutral,190,1,7,5,"0:21:26,702","0:21:29,238"
 1917,"Yeah, we look great together.",Joey,joy,positive,190,2,7,5,"00:21:32,165","00:21:35,751"
@@ -2060,7 +2060,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2180,Phoebe?,David,surprise,positive,214,5,7,11,"00:09:01,082","00:09:03,708"
 2181,David!  What-what are you doing here? Arent you supposed to be in Russia?,Phoebe,surprise,positive,214,6,7,11,"00:09:06,337","00:09:09,464"
 2182,"Yeah, Im just, Im just in town for a conference. Umm,",David,neutral,neutral,214,7,7,11,"00:09:09,632","00:09:12,008"
-2183,Well Yeah. You look great too. Did you get a haircut?,Phoebe,joy,positive,214,8,7,11,"00:09:17,139","00:09:22,018"
+2183,"Well Yeah. You look great too. Did you get a haircut?",Phoebe,joy,positive,214,8,7,11,"00:09:17,139","00:09:22,018"
 2184,Yeah. Well I-I got like thirty of them.,David,neutral,neutral,214,9,7,11,"00:09:22,311","00:09:24,771"
 2185,Yeah.,Phoebe,neutral,neutral,214,10,7,11,"00:09:24,939","00:09:26,273"
 2186,Yes! Santa's coming!,Ross,joy,positive,215,0,7,10,"00:06:48,324","00:06:51,785"
@@ -2461,7 +2461,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2602,Get out!,Rachel,anger,negative,256,14,8,22,"0:02:23,013","0:02:24,597"
 2604,Lets.,Chandler,neutral,neutral,256,15,8,22,"00:02:26,467","00:02:28,636"
 2605,"All right, I know! I know. Yeah, itll be okay.",Joey,joy,positive,257,0,8,12,"00:20:39,821","00:20:47,286"
-2606,Oh my God.Whats he gonna do now?,Rachel,fear,negative,257,1,8,12,"0:20:47,537","0:20:50,165"
+2606,"Oh my God.Whats he gonna do now?",Rachel,fear,negative,257,1,8,12,"0:20:47,537","0:20:50,165"
 2607,I cant watch!,Rachel,fear,negative,257,2,8,12,"0:20:50,165","0:20:51,542"
 2608,Oh.,Rachel,neutral,neutral,257,3,8,12,"0:20:51,542","0:20:51,685"
 2609,"Seriously, how can you watch this?",Rachel,sadness,negative,257,4,8,12,"0:20:54,586","0:20:57,798"
@@ -2555,7 +2555,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2701,"Oww!!!! Joey, she just kicked me.",Katie,surprise,negative,271,5,5,15,"00:15:24,298","00:15:27,842"
 2702,Huh.,Joey,neutral,neutral,271,6,5,15,"00:15:28,093","00:15:29,677"
 2703,Well? Aren't you gonna do something?,Katie,neutral,neutral,271,7,5,15,"00:15:32,723","00:15:35,224"
-2704,Uhh.,Joey,neutral,neutral,271,8,5,15,"00:15:35,559","00:15:36,601"
+2704,"Uhh.",Joey,neutral,neutral,271,8,5,15,"00:15:35,559","00:15:36,601"
 2705,"You'd better do something, or I'm gonna walk out that door right now! Well? Are you gonna?",Katie,anger,negative,271,9,5,15,"00:15:36,769","00:15:43,483"
 2706,Nah.,Joey,neutral,neutral,271,10,5,15,"00:15:44,860","00:15:46,319"
 2707,"How could you pick up a hitchhiker?! He could be a rape, a rapist or a killer or something!",Phoebe,fear,negative,272,0,6,1,"00:14:29,577","00:14:36,499"
@@ -2664,7 +2664,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2815,"No, its not! We were just goofing around and I dared him to try them on.",Phoebe,neutral,neutral,281,7,7,22,"00:08:20,249","00:08:23,668"
 2816,Thats weird!,Joey,disgust,negative,281,8,7,22,"00:08:24,212","00:08:25,253"
 2817,Im wearing his briefs right now.,Phoebe,neutral,neutral,281,9,7,22,"0:08:25,421","0:08:26,933"
-2818,Thatskinda hot.,Joey,surprise,positive,281,10,7,22,"0:08:26,933","0:08:29,305"
+2818,"Thatskinda hot.",Joey,surprise,positive,281,10,7,22,"0:08:26,933","0:08:29,305"
 2819,I think so too. And that little flap? Great for holding my lipstick.,Phoebe,joy,positive,282,0,1,22,"00:08:29,967","00:08:35,472"
 2820,"Yeah, I wouldnt know about that.",Joey,neutral,neutral,282,1,1,22,"00:08:40,561","00:08:42,395"
 2821,And! Yknow what Jake says? That womens underwear is actually more comfortable. And he loves the way the silk feels against his skin.,Phoebe,joy,positive,282,2,1,22,"00:08:43,856","00:08:51,279"
@@ -2733,7 +2733,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2885,"Hey, if you ever want to go out with Monica, you have my blessing.",Ross,neutral,neutral,288,19,6,13,"00:16:35,327","00:16:38,287"
 2886,"Oh-ho, and mine!",Joey,joy,positive,288,20,6,13,"00:16:38,455","00:16:39,664"
 2888,No-no wait-wait! I cant just let you hang up! Just please talk to me.,Phoebe,fear,negative,289,1,7,13,"00:09:29,735","00:09:35,782"
-2889,WellI only have one thing to do today.  I guess I could push it back.,Earl,neutral,neutral,289,2,7,13,"00:09:33,864","00:09:45,208"
+2889,"WellI only have one thing to do today.  I guess I could push it back.",Earl,neutral,neutral,289,2,7,13,"00:09:33,864","00:09:45,208"
 2890,"Yeah! Now, why do you want to kill yourself?",Phoebe,sadness,negative,289,3,7,13,"00:09:42,206","00:09:45,208"
 2891,"Its just that I uh, have been working for ten years now at this meaningless, dead-end job and nobody here even knows I exist!",Earl,sadness,negative,289,4,7,13,"00:09:50,006","00:09:55,218"
 2892,Chandler?,Phoebe,neutral,neutral,289,5,7,13,"00:09:56,554","00:09:58,138"
@@ -2762,7 +2762,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 2921,Why are you yelling?,Paul,joy,positive,294,0,6,22,"0:12:39,216","0:12:40,259"
 2922,"Whoa, that",Rachel,neutral,neutral,294,1,6,22,"0:12:40,259","0:12:40,871"
 2923,"Whoa-whoa, what is it?",Joey,surprise,negative,295,0,7,11,"00:13:45,908","00:13:47,075"
-2924,Well Its a date.,Phoebe,neutral,neutral,295,1,7,11,"00:13:48,077","00:13:50,995"
+2924,"Well Its a date.",Phoebe,neutral,neutral,295,1,7,11,"00:13:48,077","00:13:50,995"
 2925,A date?!,Joey,surprise,negative,295,2,7,11,"00:13:51,163","00:13:53,000"
 2926,"No, no Pheebs you-you must be mistaken, because I know you wouldnt schedule a date on the same night you have plans with a friend!",Joey,surprise,positive,295,3,7,11,"00:13:51,163","00:13:58,670"
 2927,"Come on Joey, dont make me feel badly about this.",Phoebe,sadness,negative,295,4,7,11,"00:13:58,838","00:14:00,713"
@@ -3156,7 +3156,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 3330,No!,Ross,anger,negative,332,12,8,1,"0:22:06,089","0:22:07,132"
 3331,Im the nice one!,Ross,surprise,negative,332,13,8,1,"0:22:07,132","0:22:09,013"
 3332,Im the one who danced with the kids all night!,Ross,surprise,negative,332,14,8,1,"00:22:09,077","00:22:12,955"
-3333,HowHow small are your feet?,Ross,neutral,neutral,332,15,8,1,"00:22:13,582","00:22:15,499"
+3333,"HowHow small are your feet?",Ross,neutral,neutral,332,15,8,1,"00:22:13,582","00:22:15,499"
 3335,"Uhh, do you mind sitting there. Im-Im saving this for my friend Ross.",Joey,neutral,neutral,333,0,4,11,"00:10:15,281","00:10:18,950"
 3336,You mean Dr. Geller?,Tour Guide,neutral,neutral,333,1,4,11,"00:10:19,201","00:10:20,577"
 3337,Doctor? Wow! I didnt know he had a nickname.,Joey,surprise,positive,333,2,4,11,"00:10:20,870","00:10:23,955"
@@ -3234,7 +3234,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 3415,"Well, we were going to do that afterI mean umm, next.",Rachel,neutral,neutral,338,11,4,18,"00:16:32,992","00:16:35,535"
 3416,"Well, were starving, why dont we all go get something to eat?",Mr. Burgin,neutral,neutral,338,12,4,18,"00:16:37,121","00:16:41,791"
 3417,"Oh, yeah, well Yeah, no use wasting this baby, just lyin around the house.",Rachel,neutral,neutral,338,13,4,18,"00:16:41,959","00:16:47,839"
-3418,So We go eat.,Mr. Burgin,neutral,neutral,338,14,4,18,"00:16:48,757","00:16:51,384"
+3418,"So We go eat.",Mr. Burgin,neutral,neutral,338,14,4,18,"00:16:48,757","00:16:51,384"
 3419,Yes.,Rachel,neutral,neutral,338,15,4,18,"00:16:50,000","00:16:51,384"
 3420,"Youll wear that. Well be eating, and of course, youll be wearing that.",Mr. Burgin,neutral,neutral,338,16,4,18,"00:16:51,552","00:16:56,764"
 3421,Well I guess I shouldve thought about my wife and kids before I talked back to chef Geller!,Joey,neutral,neutral,339,0,4,10,"00:20:46,870","00:20:52,041"
@@ -3957,7 +3957,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 4170,"Now, this is just a loan.",Phoebe,neutral,neutral,426,3,8,11,"0:21:31,790","0:21:33,083"
 4171,Okay?,Phoebe,neutral,neutral,426,4,8,11,"0:21:33,083","0:21:33,725"
 4172,"Im gonna, Im gonna want him back.",Phoebe,neutral,neutral,426,5,8,11,"0:21:33,725","0:21:35,697"
-4173,So  Im gonna go now.,Phoebe,neutral,neutral,426,6,8,11,"0:21:35,697","0:21:37,417"
+4173,"So  Im gonna go now.",Phoebe,neutral,neutral,426,6,8,11,"0:21:35,697","0:21:37,417"
 4174,"Im sorry, I thought I could do it and I cant!",Phoebe,sadness,negative,426,7,8,11,"00:21:44,553","00:21:47,430"
 4178,"All right, well why dont I go out with an ex-boyfriend and do Joey a favor?!",Monica,sadness,negative,427,0,6,18,"00:07:48,926","00:07:53,346"
 4179,"Hey, you wanna do Joey a favor, maybe you go out with Joey.",Joey,neutral,neutral,427,1,6,18,"00:07:53,514","00:07:56,725"
@@ -4036,7 +4036,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 4253,Why would you serve food on such a sharp stick?,Mr. Geller,surprise,negative,435,4,8,18,"0:05:20,017","0:05:23,635"
 4254,"Thats a good question, dad. Thats a good question",Ross,neutral,neutral,435,5,8,18,"00:05:24,312","00:05:27,815"
 4256,Congratulations you two!,an,joy,positive,435,6,8,18,"0:05:29,567","0:05:31,789"
-4257,Thank youwere so excited,Rachel,joy,positive,435,7,8,18,"0:05:31,789","0:05:34,005"
+4257,"Thank youwere so excited",Rachel,joy,positive,435,7,8,18,"0:05:31,789","0:05:34,005"
 4258,"And also, congratulations on your wedding.",an,joy,positive,435,8,8,18,"00:05:34,155","00:05:36,574"
 4259,WhaWhat?,Ross,surprise,positive,435,9,8,18,"00:05:37,408","00:05:38,576"
 4260,Look at this clown!,Joey,joy,positive,436,0,7,3,"00:06:19,045","00:06:20,295"
@@ -4208,7 +4208,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 4433,"Yeah, well hed prefer water colors, but y'know, he has easy access to a lot of charcoal.",Phoebe,neutral,neutral,450,20,3,23,"00:14:50,806","00:14:54,851"
 4434,"So then, are you going to dump Jason?",Monica,neutral,neutral,450,21,3,23,"00:14:57,813","00:14:59,355"
 4435,"Well, yeah, because I have to break up with someone, and Okay so Jason is sensitive,  but now sos Vince  Plus, Vince has the body y'know?",Phoebe,neutral,neutral,450,22,3,23,"00:14:59,523","00:15:09,574"
-4436,So Its really just about the math.,Phoebe,neutral,neutral,450,23,3,23,"00:15:09,742","00:15:15,371"
+4436,"So Its really just about the math.",Phoebe,neutral,neutral,450,23,3,23,"00:15:09,742","00:15:15,371"
 4437,"Ok, so it's a tie again, 41 to 41.",Mike,neutral,neutral,451,0,9,23,"00:43:49,376","00:43:51,836"
 4438,"Ok, look! Enough is enough!",Chandler,anger,negative,451,1,9,23,"00:43:53,797","00:43:56,758"
 4439,"No, I have just to have two more points to beat him!",Monica,joy,positive,451,2,9,23,"0:43:56,925","0:43:58,886"
@@ -4618,7 +4618,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 4866,"Yeah, well, youre wrong! Okay, youre wrong.",Chandler,anger,negative,497,1,3,8,"00:08:04,317","00:08:06,234"
 4867,"Im not wrong! I wish I was. Im sorry. Bet that barium enema doesnt sound so bad now, huh?",Joey,sadness,negative,497,2,3,8,"00:08:06,402","00:08:20,373"
 4868,I know.,Monica,neutral,neutral,498,0,7,5,"00:07:09,303","00:07:12,097"
-4869,Lets try a lookof far offwonderment.,Monica,neutral,neutral,498,1,7,5,"00:07:09,303","00:07:14,683"
+4869,"Lets try a lookof far offwonderment.",Monica,neutral,neutral,498,1,7,5,"00:07:09,303","00:07:14,683"
 4870,"Okay, well-well gaze into our future and well think about our marriage and the days to come.",Monica,joy,positive,498,2,7,5,"00:07:14,976","00:07:20,397"
 4871,Chandler!,Monica,surprise,negative,498,3,7,5,"0:07:26,195","0:07:26,757"
 4872,What is the matter with your face?!,Monica,surprise,negative,498,4,7,5,"0:07:26,757","0:07:29,417"
@@ -4700,7 +4700,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 4957,"Of course, of course.",Ross,neutral,neutral,505,3,7,2,"0:02:04,166","0:02:05,604"
 4958,"Umm, would you please excuse me for a moment?",Ross,neutral,neutral,505,4,7,2,"00:02:05,708","00:02:08,335"
 4959,"Umm, do you know each others hometowns?",Ross,neutral,neutral,505,5,7,2,"00:02:08,503","00:02:12,589"
-4960,Why dont you   Wh-whats going on?,Ross,fear,negative,505,6,7,2,"00:02:13,508","00:02:14,925"
+4960,"Why dont you   Wh-whats going on?",Ross,fear,negative,505,6,7,2,"00:02:13,508","00:02:14,925"
 4961,"Well, umm, not much.",Phoebe,neutral,neutral,505,7,7,2,"00:02:15,135","00:02:19,721"
 4962,"But, I was just thinking that since those guys just got engaged that maybe it would be nice if they had some privacy, yknow?",Phoebe,neutral,neutral,505,8,7,2,"00:02:20,014","00:02:22,224"
 4963,"So, could I just move in with you for a couple days?",Phoebe,neutral,neutral,505,9,7,2,"00:02:22,433","00:02:26,103"
@@ -4851,7 +4851,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 5119,What?! What are you doing?!,Monica,surprise,negative,519,0,7,12,"00:15:11,452","00:15:14,162"
 5120,Do you know what just happened?,Chandler,anger,negative,519,1,7,12,"00:15:14,622","00:15:16,831"
 5121,Yeah. We-we had sex and then we fell asleep.,Monica,neutral,neutral,519,2,7,12,"00:15:18,000","00:15:21,836"
-5122,No. We were in the middle of sexand,Chandler,neutral,neutral,519,3,7,12,"00:15:23,797","00:15:27,258"
+5122,"No. We were in the middle of sexand",Chandler,neutral,neutral,519,3,7,12,"00:15:23,797","00:15:27,258"
 5123,"Nooo! No, thats not true. No, best time ever! Yeah, you rocked my world!",Monica,joy,positive,519,4,7,12,"00:15:31,847","00:15:42,023"
 5124,"Don't worry, Chandler, it's not a globe of the United States.",Joey,neutral,neutral,520,0,7,8,"00:04:07,288","00:04:10,249"
 5125,Hey you guys I'm gonna go out and take a walk.,Phoebe,neutral,neutral,520,1,7,8,"00:04:17,966","00:04:20,592"
@@ -4869,7 +4869,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 5137,Thank you.,Joey,neutral,neutral,521,6,3,7,"00:21:18,860","00:21:20,319"
 5138,Rach?,Phoebe,surprise,positive,522,0,7,18,"00:20:57,047","00:20:58,089"
 5139,Ill be out in a second.,Rachel,neutral,neutral,522,1,7,18,"00:20:58,257","00:21:01,509"
-5140,Oh.  Its just so unexpected! II uhBoy Ill tell you its just such an honor to be nominated for a,Phoebe,joy,positive,522,2,7,18,"00:21:05,806","00:21:17,817"
+5140,"Oh.  Its just so unexpected! II uhBoy Ill tell you its just such an honor to be nominated for a",Phoebe,joy,positive,522,2,7,18,"00:21:05,806","00:21:17,817"
 5141,"Honey, we have to go. Our reservations are at 8:00.",Rachel,neutral,neutral,522,3,7,18,"00:21:27,828","00:21:33,499"
 5142,in Reservations at 8:00 by Neil Simon.  Thank-thank you Neil. Thank you for the words.,Phoebe,neutral,neutral,522,4,7,18,"00:21:29,913","00:21:37,545"
 5143,"Okay honey, you can finish this later were gonna be late. We gotta go.",Rachel,neutral,neutral,522,5,7,18,"00:21:38,088","00:21:40,840"
@@ -5248,7 +5248,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 5534,"Ah, mustve been fairly obvious since it was the only thing left in your store.",Ross,neutral,neutral,557,1,8,21,"00:10:12,195","00:10:16,575"
 5535,"Listen, to be honest, home deliveries are really a part of my job description.",Katie,neutral,neutral,557,2,8,21,"00:10:18,201","00:10:24,124"
 5536,Oh.,Ross,neutral,neutral,557,3,8,21,"00:10:24,291","00:10:25,709"
-5537,Oh uhI actually came here to ask you out.,Katie,fear,negative,557,4,8,21,"00:10:26,668","00:10:31,340"
+5537,"Oh uhI actually came here to ask you out.",Katie,fear,negative,557,4,8,21,"00:10:26,668","00:10:31,340"
 5538,"Oh! Wow! Uh, yeah! That sounds great. Im just gonna put this  back in my pocket, pretend",Ross,joy,positive,557,5,8,21,"00:10:31,506","00:10:35,927"
 5539,Sure!,Katie,joy,positive,557,6,8,21,"00:10:45,479","00:10:48,732"
 5540,Horny bitch.  No! Youre a horny bitch! Noooo! Youre the horny bitch! No! Youre a horny bitch!,Rachel,anger,negative,557,7,8,21,"00:10:45,479","00:10:59,201"
@@ -6025,7 +6025,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 6369,All I really needed was a plan.,Rachel,neutral,neutral,636,3,7,14,"00:12:20,573","00:12:22,824"
 6370,See I wanna have three kids,Rachel,neutral,neutral,636,4,7,14,"00:12:23,325","00:12:25,034"
 6371,"Oh let me guess, and you wanna have them all at the same time and you wanna have them for your brother.",Phoebe,joy,positive,636,5,7,14,"00:12:25,327","00:12:30,331"
-6372,As I was saying I should probably have the first of the three kids by the time Im 35 which gives me five years.,Rachel,neutral,neutral,636,6,7,14,"00:12:32,168","00:12:39,966"
+6372,"As I was saying I should probably have the first of the three kids by the time Im 35 which gives me five years.",Rachel,neutral,neutral,636,6,7,14,"00:12:32,168","00:12:39,966"
 6375,You spent a hundred dollars. Thats the limit. Youre screwed!,Joey,joy,positive,637,0,7,17,"00:14:09,181","00:14:13,643"
 6376,"Uh actually, I sent the flowers before the actual date. So technically,",Ross,anger,negative,637,1,7,17,"00:14:14,478","00:14:19,482"
 6377,Oh-oh! So thats the way its gonna be huh? Yeah I can break the rules too yknow!,Joey,anger,negative,637,2,7,17,"00:14:24,238","00:14:27,657"
@@ -6089,7 +6089,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 6435,Where's Chandler?,Phoebe,neutral,neutral,643,0,7,8,"00:14:31,036","00:14:32,078"
 6436,Here I am.,Chandler,neutral,neutral,643,1,7,8,"0:14:33,414","0:14:34,216"
 6437,Wash your hands!!!,Phoebe,disgust,negative,643,2,7,8,"0:14:34,216","0:14:35,975"
-6438,How did youknow?,Chandler,surprise,negative,643,3,7,8,"00:14:38,335","00:14:39,878"
+6438,"How did youknow?",Chandler,surprise,negative,643,3,7,8,"00:14:38,335","00:14:39,878"
 6439,Hey! What's she doing back here?,Ross,surprise,negative,643,4,7,8,"00:14:44,049","00:14:46,092"
 6440,"Relax, Ross. She's not made of ice cream!",Monica,neutral,neutral,643,5,7,8,"00:14:46,302","00:14:49,220"
 6441,"Hey look, Phoebe. I, uh, I laid out the states geographically...",Ross,neutral,neutral,643,6,7,8,"00:14:50,681","00:14:54,267"
@@ -6400,7 +6400,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 6764,That'll work!,Monica,joy,positive,667,4,5,24,"00:18:08,420","00:18:10,046"
 6765,I don't think so.,Chandler,neutral,neutral,667,5,5,24,"00:18:10,255","00:18:11,923"
 6766,"Okay, now we just need something borrowed!",Monica,joy,positive,667,6,5,24,"00:18:13,467","00:18:15,593"
-6767,Here justtake this.,Chandler,neutral,neutral,667,7,5,24,"0:18:16,512","0:18:18,064"
+6767,"Here justtake this.",Chandler,neutral,neutral,667,7,5,24,"0:18:16,512","0:18:18,064"
 6768,That's stealing!,Monica,sadness,negative,667,8,5,24,"0:18:18,064","0:18:20,161"
 6769,"No, we'll-we'll bring it back! Just put it under your dress.",Chandler,neutral,neutral,667,9,5,24,"00:18:20,641","00:18:22,850"
 6770,Ohh.,Monica,joy,positive,668,0,3,21,"00:18:30,400","00:18:32,401"
@@ -7078,7 +7078,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 7482,I dont know.,Ross,neutral,neutral,747,9,7,18,"0:08:19,642","0:08:19,818"
 7483,"I mean, last year Elizabeth now-now this kid.",Ross,anger,negative,747,10,7,18,"00:08:19,874","00:08:22,584"
 7484,What-what-what-what is it?!,Ross,joy,positive,747,11,7,18,"00:08:22,752","00:08:26,588"
-7485,Am I giving out some kind ofsexy professor vibe?,Ross,anger,negative,747,12,7,18,"00:08:22,752","00:08:29,341"
+7485,"Am I giving out some kind ofsexy professor vibe?",Ross,anger,negative,747,12,7,18,"00:08:22,752","00:08:29,341"
 7486,Not right now.,Rachel,neutral,neutral,747,13,7,18,"00:08:32,261","00:08:33,970"
 7487,It-itThe point is my natural charisma has made him fail his midterm.,Ross,sadness,negative,747,14,7,18,"00:08:34,430","00:08:39,601"
 7488,"Oh, see now I feel bad for the kid!",Rachel,sadness,negative,747,15,7,18,"00:08:39,769","00:08:41,853"
@@ -7555,7 +7555,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 7955,Let go of my hand!,Monica,anger,negative,801,8,2,6,"00:10:31,339","00:10:33,173"
 7956,Youre gonna love me so much. I got Sting tickets!!,Ross,joy,positive,802,0,8,10,"00:21:19,945","00:21:24,031"
 7957,Oh my God! I do love you! How did you do it?!,Phoebe,joy,positive,802,1,8,10,"00:21:24,199","00:21:27,952"
-7958,Welllets just say,Ross,neutral,neutral,802,2,8,10,"00:21:28,120","00:21:30,121"
+7958,"Welllets just say",Ross,neutral,neutral,802,2,8,10,"00:21:28,120","00:21:30,121"
 7959,"Oo, where are the seats?",Phoebe,joy,positive,802,3,8,10,"0:21:35,252","0:21:36,379"
 7960,"Uh, middle balcony.",Ross,neutral,neutral,802,4,8,10,"0:21:36,379","0:21:37,444"
 7961,Youre a mean old woman.,Boy in the Cape,anger,negative,803,0,8,6,"00:14:48,888","00:14:50,722"
@@ -7598,7 +7598,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8001,"No, I will. Im just not up for it tonight.",Rachel,neutral,neutral,806,12,8,2,"00:18:05,334","00:18:08,086"
 8002,"Hey Rach listen, no matter what this guy says I want you to know youre not gonna be alone in this.",Joey,joy,positive,806,13,8,2,"00:18:08,253","00:18:12,131"
 8003,Im not?,Rachel,surprise,negative,806,14,8,2,"00:18:12,382","00:18:13,716"
-8004,Listen I uh  Its a scary world out there especially if youre a single mom.,Joey,fear,negative,806,15,8,2,"00:18:14,009","00:18:22,683"
+8004,"Listen I uh  Its a scary world out there especially if youre a single mom.",Joey,fear,negative,806,15,8,2,"00:18:14,009","00:18:22,683"
 8005,"Yknow, I always felt like you and I have this-this special bond.",Joey,neutral,neutral,806,16,8,2,"00:18:24,103","00:18:28,064"
 8007,"So,  Rachel Green will you marry me?",Joey,joy,positive,806,17,8,2,"00:18:29,608","00:18:32,110"
 8008,Thank you.,Rachel,neutral,neutral,807,0,7,18,"00:14:11,058","00:14:14,185"
@@ -7630,7 +7630,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8034,Who is that?!,Monica,surprise,negative,810,0,7,9,"00:06:20,922","00:06:22,047"
 8035,"Dont worry, Im brave!",Chandler,sadness,negative,810,1,7,9,"0:06:22,840","0:06:23,883"
 8036,I am brave!,Chandler,fear,negative,810,2,7,9,"0:06:23,883","0:06:24,968"
-8037,II am brave!,Chandler,fear,negative,810,3,7,9,"0:06:24,968","0:06:27,033"
+8037,"II am brave!",Chandler,fear,negative,810,3,7,9,"0:06:24,968","0:06:27,033"
 8038,No-no-no-no!!,Chandler,fear,negative,810,4,7,9,"00:06:28,471","00:06:30,263"
 8039,Can you tell me who is there please?,Chandler,neutral,neutral,810,5,7,9,"00:06:31,557","00:06:33,809"
 8040,Hi!,Gary,joy,positive,810,6,7,9,"00:06:39,899","00:06:41,191"
@@ -7650,7 +7650,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8054,You wouldnt happen to have a very big fork?,Richard,neutral,neutral,811,2,7,24,"00:12:35,337","00:12:39,257"
 8055,"So I uh, I just talked to the director. Thats it, were done for the day.",Joey,neutral,neutral,811,3,7,24,"00:12:40,843","00:12:46,598"
 8056,Well have we finished the scene?,Richard,surprise,negative,811,4,7,24,"00:12:47,558","00:12:49,184"
-8057,Yeah! Youyou were wonderful.,Joey,joy,positive,811,5,7,24,"0:12:49,435","0:12:51,867"
+8057,"Yeah! Youyou were wonderful.",Joey,joy,positive,811,5,7,24,"0:12:49,435","0:12:51,867"
 8058,As were you.,Richard,neutral,neutral,811,6,7,24,"0:12:51,867","0:12:54,108"
 8059,"So I got your car, its right outside.",Joey,neutral,neutral,811,7,7,24,"00:12:54,899","00:12:57,025"
 8062,"Oh, thank you. Youre welcome.",Richard,joy,positive,811,8,7,24,"00:12:57,234","00:12:59,778"
@@ -7907,7 +7907,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8322,Chandler please!,Monica,disgust,negative,835,8,8,6,"00:21:29,288","00:21:30,913"
 8323,Oh whats the matter? Are you scared?,Chandler,anger,negative,835,9,8,6,"00:21:31,081","00:21:32,999"
 8324,Lets go big bunny!,Monica,anger,negative,835,10,8,6,"00:21:34,001","00:21:35,584"
-8325,Okay. 123Go!   Im gonna kill myself!,Chandler,neutral,neutral,835,11,8,6,"00:21:45,387","00:21:54,020"
+8325,"Okay. 123Go!   Im gonna kill myself!",Chandler,neutral,neutral,835,11,8,6,"00:21:45,387","00:21:54,020"
 8326,"Hey Ross, is uh, is Staten Island really an island?",Joey,neutral,neutral,836,0,5,21,"00:02:38,032","00:02:41,118"
 8327,"Uh-huh, that's why they call it Staten",Ross,surprise,positive,836,1,5,21,"00:02:41,286","00:02:45,080"
 8328,Ohhh. I thought it was like Long Island.,Joey,surprise,positive,836,2,5,21,"00:02:45,456","00:02:48,292"
@@ -8127,7 +8127,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8561,How could you have kept all of this from me?,Mona,fear,negative,854,0,8,8,"00:13:19,465","00:13:21,341"
 8562,"I was going to tell you, but",Ross,neutral,neutral,854,1,8,8,"00:13:21,509","00:13:24,260"
 8563,But what?! You figured youd get what you wanted and then dump her like you dumped Rachel!,Dr. Green,anger,negative,854,2,8,8,"00:13:24,428","00:13:27,222"
-8564,Hey! I did not dump Rachel!  Nor are we still together.  Can I just  Why dont we just let the machine get that?,Ross,anger,negative,854,3,8,8,"00:13:27,389","00:13:40,652"
+8564,"Hey! I did not dump Rachel!  Nor are we still together.  Can I just  Why dont we just let the machine get that?",Ross,anger,negative,854,3,8,8,"00:13:27,389","00:13:40,652"
 8565,Hey Ross. Its Joey. Theres a hooker over here and we thought maybe youd know something about it.,Joey,neutral,neutral,854,4,8,8,"00:13:45,199","00:13:54,541"
 8566,"No! No! No! No! No! I-I-I-II need to, I need to lie down.",Ross,neutral,neutral,854,5,8,8,"00:13:48,702","00:13:54,541"
 8567,Everything on your application looks really goodOhh!,Joey,joy,positive,855,0,6,3,"00:11:12,421","00:11:15,173"
@@ -8254,7 +8254,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8689,Yknow what? It doesnt matter! Because it is not true!,Cecilia,anger,negative,868,0,7,15,"00:05:44,510","00:05:47,679"
 8690,Okay.,Joey,neutral,neutral,868,1,7,15,"00:05:47,847","00:05:48,972"
 8691,"And if it were true, how",Cecilia,neutral,neutral,868,2,7,15,"00:05:49,223","00:05:52,893"
-8692,Ms. Monroe  Oh there you go.,Joey,neutral,neutral,868,3,7,15,"00:06:01,235","00:06:04,446"
+8692,"Ms. Monroe  Oh there you go.",Joey,neutral,neutral,868,3,7,15,"00:06:01,235","00:06:04,446"
 8693,Mark's a genius!,Joey,surprise,positive,869,0,3,12,"00:12:31,667","00:12:33,001"
 8694,Why?! How?! How is he a genius?,Ross,surprise,negative,869,1,3,12,"0:12:33,169","0:12:37,048"
 8695,"Look, don't you see what's happening here.",Chandler,anger,negative,869,2,3,12,"0:12:37,048","0:12:37,188"
@@ -8349,7 +8349,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8787,"Yeah, we talked and Monica made me see that I over reacted a little bit and some things in life are more important.",Chandler,neutral,neutral,878,3,7,16,"00:19:42,931","00:19:57,486"
 8788,Do you have a minute?,Tag,neutral,neutral,879,0,7,4,"0:20:51,959","0:20:52,761"
 8789,"Well yeah, sure, whats up?",Rachel,neutral,neutral,879,1,7,4,"0:20:52,761","0:20:54,477"
-8790,I got asked out twice today when I was at lunchby guys.,Tag,neutral,neutral,879,2,7,4,"00:20:55,087","00:20:58,506"
+8790,"I got asked out twice today when I was at lunchby guys.",Tag,neutral,neutral,879,2,7,4,"00:20:55,087","00:20:58,506"
 8791,Oh really?!,Rachel,surprise,positive,880,0,1,1,"00:21:02,844","00:21:03,970"
 8792,Yeah. Did you tell someone that I was gay?,Tag,neutral,neutral,880,1,1,1,"00:21:04,338","00:21:06,597"
 8793,"Oh, did you not want people to know that?",Rachel,joy,positive,880,2,1,1,"00:21:06,807","00:21:10,142"
@@ -8469,7 +8469,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 8909,Thats what I do now.,Chandler,neutral,neutral,892,7,8,21,"0:04:10,838","0:04:13,467"
 8910,"Hey Joey, come taste this.",Monica,neutral,neutral,892,8,8,21,"0:04:14,630","0:04:16,402"
 8911,What is it?,Joey,neutral,neutral,892,9,8,21,"0:04:16,402","0:04:16,986"
-8912,Remember that guy that gave me a bad review? Well  Im getting my revenge!,Monica,anger,negative,892,10,8,21,"00:04:17,091","00:04:23,264"
+8912,"Remember that guy that gave me a bad review? Well  Im getting my revenge!",Monica,anger,negative,892,10,8,21,"00:04:17,091","00:04:23,264"
 8913,You cooked him?,Joey,surprise,negative,892,11,8,21,"00:04:24,098","00:04:26,183"
 8914,No.,Monica,neutral,neutral,892,12,8,21,"00:04:26,350","00:04:30,229"
 8915,"He teaches a course on food criticism at the New School, so before we go to the movies I wanna go by there and make him try my bouillabaisse again.",Monica,neutral,neutral,892,13,8,21,"00:04:26,350","00:04:33,816"
@@ -8582,7 +8582,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 9030,"Hey Chandler, you cant keep your hands off her for one second!",Mr. Geller,anger,negative,902,15,7,14,"00:15:09,700","00:15:12,994"
 9031,"Oh-ho, I think its nice.",Mrs. Geller,joy,positive,902,16,7,14,"00:15:13,162","00:15:14,829"
 9032,Well you have to because maybe its stupid.,Rachel,neutral,neutral,903,0,7,17,"00:15:46,403","00:15:49,989"
-9033,Well its just while Monica and I were dancing to them it wasthe first time I knew thatyou were the woman I wanted to dance all my dances with.,Chandler,joy,positive,903,1,7,17,"00:15:51,617","00:16:04,337"
+9033,"Well its just while Monica and I were dancing to them it wasthe first time I knew thatyou were the woman I wanted to dance all my dances with.",Chandler,joy,positive,903,1,7,17,"00:15:51,617","00:16:04,337"
 9034,Oh crap!,Monica,anger,negative,903,2,7,17,"00:16:06,799","00:16:09,092"
 9035,All right.,Monica,neutral,neutral,904,0,4,15,"0:21:19,653","0:21:20,585"
 9036,The super couldnt figure out what it did.,Monica,neutral,neutral,904,1,4,15,"0:21:20,585","0:21:23,003"
@@ -8646,7 +8646,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 9095,What?! All rightHey! Dont look at me! Youre the one who wanted to come up and look for some stupid,Joey,anger,negative,908,14,7,12,"00:03:27,457","00:03:34,463"
 9096,"Its called the Bapstein-King comet, okay?  Hey! Hey! Bapstein was a very well respected astronomer!",Ross,anger,negative,908,15,7,12,"00:03:35,548","00:03:42,304"
 9097,Oh no! No! No!,Joey,surprise,negative,908,16,7,12,"00:03:42,680","00:03:44,139"
-9098,Wow! This place is incredible!  Stings penthat he gave to Phoebe.  Come on! Secret passageway!,Phoebe,joy,positive,909,0,8,10,"00:15:11,827","00:15:22,629"
+9098,"Wow! This place is incredible!  Stings penthat he gave to Phoebe.  Come on! Secret passageway!",Phoebe,joy,positive,909,0,8,10,"00:15:11,827","00:15:22,629"
 9099,Hi!,Trudie Styler,neutral,neutral,909,1,8,10,"0:15:33,349","0:15:34,161"
 9100,Hi!,Phoebe,neutral,neutral,909,2,8,10,"0:15:34,161","0:15:35,654"
 9101,Im Trudie.,Trudie Styler,neutral,neutral,909,3,8,10,"0:15:35,809","0:15:36,571"
@@ -8722,7 +8722,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 9172,So where-where is it going?,Ross,neutral,neutral,916,7,8,11,"00:12:50,227","00:12:53,188"
 9173,Ah!,Ross,surprise,positive,916,8,8,11,"00:12:55,691","00:12:57,233"
 9174,Thats-thats the real question.,Ross,neutral,neutral,916,9,8,11,"00:12:58,360","00:13:02,238"
-9175,And-and the answer isis its going somewherefun.,Ross,joy,positive,916,10,8,11,"00:13:08,537","00:13:14,667"
+9175,"And-and the answer isis its going somewherefun.",Ross,joy,positive,916,10,8,11,"00:13:08,537","00:13:14,667"
 9176,"Now I-I know what youre thinking, fun was fine for you like ten years ago yknow, but youre-youre not getting any younger.",Ross,neutral,neutral,916,11,8,11,"00:13:12,666","00:13:23,760"
 9177,"No I meanNo not you, not you, youyou",Ross,fear,negative,916,12,8,11,"00:13:24,887","00:13:29,849"
 9178,"Im sorry, so umm, so where are we?",Mona,sadness,negative,916,13,8,11,"00:13:38,734","00:13:41,945"
@@ -8752,7 +8752,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 9202,No.,Student,neutral,neutral,920,2,3,7,"00:17:03,731","00:17:05,481"
 9203,Whoa. That was really good.,Joey,surprise,positive,920,3,3,7,"00:17:08,235","00:17:10,945"
 9204,"Thanks, any suggestions?",Student,neutral,neutral,920,4,3,7,"00:17:11,572","00:17:12,697"
-9206,You-youyou had sex with Ursula?!,Phoebe,surprise,negative,921,0,8,7,"00:17:00,436","00:17:04,355"
+9206,"You-youyou had sex with Ursula?!",Phoebe,surprise,negative,921,0,8,7,"00:17:00,436","00:17:04,355"
 9207,"Uh, a little bit. She-she-she walked in and I thought she was you and I kissed her and",Eric,fear,negative,921,1,8,7,"00:17:04,523","00:17:07,068"
 9208,You didnt notice she was wearing different clothes?!,Phoebe,surprise,negative,921,2,8,7,"00:17:07,776","00:17:09,736"
 9209,Well I was just so excited to see you.,Eric,sadness,negative,921,3,8,7,"00:17:09,903","00:17:13,489"
@@ -9710,7 +9710,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 10180,Need some help?,Ross,neutral,neutral,1013,2,7,9,"00:14:07,972","00:14:11,057"
 10181,No! You dont know the system! Therell be nobody messing with the system!,Monica,anger,negative,1013,3,7,9,"00:14:07,972","00:14:13,768"
 10182,Your license please.,Policeman,neutral,neutral,1014,0,7,22,"00:20:24,640","00:20:26,015"
-10183,You dont-you dont want to hear about my dream OfficerPretty?,Ross,neutral,neutral,1014,1,7,22,"00:20:27,684","00:20:34,357"
+10183,"You dont-you dont want to hear about my dream OfficerPretty?",Ross,neutral,neutral,1014,1,7,22,"00:20:27,684","00:20:34,357"
 10184,Its Petty.  Ill be right back with your ticket.,Policeman,neutral,neutral,1014,2,7,22,"00:20:37,903","00:20:43,574"
 10185,You have a son!,Rachel,surprise,positive,1014,3,7,22,"0:20:46,161","0:20:47,538"
 10186,I know. I know.,Ross,neutral,neutral,1014,4,7,22,"0:20:47,538","0:20:49,270"
@@ -9821,7 +9821,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 10293,"Joey, what-what are you doing going into my bedroom?!",Rachel,anger,negative,1022,10,7,2,"00:07:58,561","00:08:01,605"
 10294,"Okay, look Im sorry, I went in there to take a nap and I know I shouldnt have, but you got porn!",Joey,surprise,negative,1022,11,7,2,"00:08:01,856","00:08:05,734"
 10295,"Hey-hey, yknow what?",Rachel,anger,negative,1022,12,7,2,"0:08:07,612","0:08:10,824"
-10298,Theres nothing wrong with a woman enjoying a littleerotica.,Rachel,neutral,neutral,1022,15,7,2,"00:08:11,115","00:08:15,952"
+10298,"Theres nothing wrong with a woman enjoying a littleerotica.",Rachel,neutral,neutral,1022,15,7,2,"00:08:11,115","00:08:15,952"
 10299,"Its just a healthy expression of female sexuality, which by the way, you will never understand.",Rachel,anger,negative,1022,16,7,2,"00:08:16,245","00:08:24,294"
 10300,You got porn!,Joey,joy,positive,1022,17,7,2,"00:08:26,797","00:08:28,465"
 10301,"Well, I feel like a snack!",Chandler,joy,positive,1023,0,7,15,"00:14:33,622","00:14:35,790"
@@ -9943,7 +9943,7 @@ Sr No.,Utterance,Speaker,Emotion,Sentiment,Dialogue_ID,Utterance_ID,Season,Episo
 10431,"Im not even getting married! Okay, this is a question for science fiction writers!",Chandler,neutral,neutral,1035,1,4,22,"00:02:40,034","00:02:45,038"
 10432,I cant believe youre not picking me.,Joey,anger,negative,1035,2,4,22,"00:02:45,206","00:02:47,040"
 10433,"Hey, how can it",Ross,neutral,neutral,1035,3,4,22,"0:02:47,208","0:02:47,930"
-10434,Im not even Im not even,Chandler,neutral,neutral,1035,4,4,22,"0:02:47,930","0:02:49,854"
+10434,"Im not even Im not even",Chandler,neutral,neutral,1035,4,4,22,"0:02:47,930","0:02:49,854"
 10435,"Fine, yknow what, thats it. From now on, Joey, I want you to be my best man.",Ross,anger,negative,1035,5,4,22,"00:02:52,255","00:02:55,174"
 10436,Yes!  Shame about you man.,Joey,joy,positive,1035,6,4,22,"00:02:55,758","00:02:58,844"
 10437,Hey-hey! Stanley! Hey-hey! You're leading man is here! Let's get to work.,Joey,joy,positive,1036,0,5,22,"00:19:14,987","00:19:21,033"
