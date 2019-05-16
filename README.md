@@ -98,7 +98,7 @@ There are 13 pickle files comprising of the data and features used for training 
 import pickle
 data, W, vocab, word_idx_map, max_sentence_length, label_index = pickle.load(open(filepath, 'rb'))
 ```
-* **text_emotion.pkl, text_sentiment.pkl** - It consists of 600 dimensional textual feature vector for each utterance for emotion/sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_text_emb['0'].shape = (33, 300) or (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
+* **text_emotion.pkl, text_sentiment.pkl** - It consists of 600 dimensional textual feature vector for each utterance for emotion/sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_text_emb['0'].shape = (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
 ```python
 import pickle
 train_text_emb, val_text_emb, test_text_emb = pickle.load(open(filepath, 'rb'))
