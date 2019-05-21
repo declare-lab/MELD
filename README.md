@@ -81,7 +81,10 @@ Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to 
 
 ## Description of Pickle Files
 There are 13 pickle files comprising of the data and features used for training the baseline models. Following is a brief description of each of the pickle files.
-* **data_emotion.p, data_sentiment.p** - contains 5 different elements stored as a list.
+
+### Data pickle files:
+
+* **data_emotion.p, data_sentiment.p** - These are the primary data files which contain 5 different elements stored as a list.
     * *data*: It consists of a dictionary with the following key/value pairs.
         * *text*: original sentence.
         * *split*: train/val/test - denotes the which split the tuple belongs to.
@@ -92,42 +95,56 @@ There are 13 pickle files comprising of the data and features used for training 
     * W: glove embedding matrix
     * vocab: the vocabulary of the dataset
     * word_idx_map: mapping of each word from vocab to its index in W.
-    *  max_sentence_length: maximum number of tokens in an utterance in the dataset.
+    * max_sentence_length: maximum number of tokens in an utterance in the dataset.
     * label_index: mapping of each label (emotion or sentiment) to its assigned index, eg. label_index['neutral']=0               
 ```python
 import pickle
 data, W, vocab, word_idx_map, max_sentence_length, label_index = pickle.load(open(filepath, 'rb'))
 ```
-* **text_emotion.pkl, text_sentiment.pkl** - It consists of 600 dimensional textual feature vector for each utterance for emotion/sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_text_emb['0'].shape = (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
-```python
-import pickle
-train_text_emb, val_text_emb, test_text_emb = pickle.load(open(filepath, 'rb'))
-```
-* **bimodal_sentiment.pkl** - It consists of 600 dimensional bimodal(text, audio) feature vector for each utterance for sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_bimodal_emb['0'].shape = (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
-```python
-import pickle
-train_bimodal_emb, val_bimodal_emb, test_bimodal_emb = pickle.load(open(filepath, 'rb'))
-```
-* **audio_emotion.pkl, audio_sentiment.pkl** - It consists of 300/600 dimensional audio feature vector for each utterance for emotion/sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_audio_emb['0'].shape = (33, 300) or (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
-```python
-import pickle
-train_audio_emb, val_audio_emb, test_audio_emb = pickle.load(open(filepath, 'rb'))
-```
-* **text_glove_average_emotion.pkl, text_glove_average_sentiment.pkl** - It consists of 300 dimensional textual feature vectors of each utterance initialized as the average of the embeddings of all tokens and trained for emotion/sentiment classification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id. For eg. train_text_avg_emb['0_0'].shape = (300, )
+
+* **text_glove_average_emotion.pkl, text_glove_average_sentiment.pkl** - It consists of 300 dimensional textual feature vectors of each utterance initialized as the average of the Glove embeddings of all tokens per utterance. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id. For eg. train_text_avg_emb['0_0'].shape = (300, )
 ```python
 import pickle
 train_text_avg_emb, val_text_avg_emb, test_text_avg_emb = pickle.load(open(filepath, 'rb'))
 ```
-* **text_glove_CNN_emotion.pkl, text_glove_CNN_sentiment.pkl** - It consists of 100 dimensional textual features obtained after training on a CNN-based network for emotion/sentiment calssification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id. For eg. train_text_CNN_emb['0_0'].shape = (100, )
-```python
-import pickle
-train_text_CNN_emb, val_text_CNN_emb, test_text_CNN_emb = pickle.load(open(filepath, 'rb'))
-```
-* **audio_embeddings_feature_selection_emotion.pkl,audio_embeddings_feature_selection_sentiment.pkl** - It consists of 1611/1422 dimensional audio feature vectors of each utterance trained for emotion/sentiment classification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id. For eg. train_audio_emb['0_0'].shape = (1611, ) or (1422, )
+
+
+
+* **audio_embeddings_feature_selection_emotion.pkl,audio_embeddings_feature_selection_sentiment.pkl** - It consists of 1611/1422 dimensional audio feature vectors of each utterance trained for emotion/sentiment classification. These features are originally extracted from [openSMILE](https://www.audeering.com/opensmile/) and then followed by L2-based feature selection using SVM. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id. For eg. train_audio_emb['0_0'].shape = (1611, ) or (1422, )
 ```python
 import pickle
 train_audio_emb, val_audio_emb, test_audio_emb = pickle.load(open(filepath, 'rb'))
 ```
+
+
+### Model output pickle files:
+
+* **text_glove_CNN_emotion.pkl, text_glove_CNN_sentiment.pkl** - It consists of 100 dimensional textual features obtained after training on a CNN-based [network](https://github.com/dennybritz/cnn-text-classification-tf) for emotion/sentiment calssification. It is a list comprising of 3 dictionaries for train, val and the test set with each dictionary indexed in the format *dia_utt*, where dia is the dialogue id and utt is the utterance id. For eg. train_text_CNN_emb['0_0'].shape = (100, )
+```python
+import pickle
+train_text_CNN_emb, val_text_CNN_emb, test_text_CNN_emb = pickle.load(open(filepath, 'rb'))
+```
+
+* **text_emotion.pkl, text_sentiment.pkl** - These files contain the contextual feature representations as produced by the uni-modal bcLSTM model. It consists of 600 dimensional textual feature vector for each utterance for emotion/sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_text_emb['0'].shape = (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
+```python
+import pickle
+train_text_emb, val_text_emb, test_text_emb = pickle.load(open(filepath, 'rb'))
+```
+
+* **audio_emotion.pkl, audio_sentiment.pkl** - These files contain the contextual feature representations as produced by the uni-modal bcLSTM model. It consists of 300/600 dimensional audio feature vector for each utterance for emotion/sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_audio_emb['0'].shape = (33, 300) or (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
+```python
+import pickle
+train_audio_emb, val_audio_emb, test_audio_emb = pickle.load(open(filepath, 'rb'))
+```
+
+
+* **bimodal_sentiment.pkl** - This file contains the contextual feature representations as produced by the bi-imodal bcLSTM model. It consists of 600 dimensional bimodal (text, audio) feature vector for each utterance for sentiment classification stored as a dictionary indexed with dialogue id. It is a list comprising of 3 dictionaries for train, val and the test set. For eg. train_bimodal_emb['0'].shape = (33, 600), where 33 is the maximum number of utterances in a dialogue. Dialogues with less utterances are padded with zero-vectors.
+```python
+import pickle
+train_bimodal_emb, val_bimodal_emb, test_bimodal_emb = pickle.load(open(filepath, 'rb'))
+```
+
+
 
 ## Description of Raw Data
 - There are 3 folders (.tar.gz files)-train, dev and test; each of which corresponds to video clips from the utterances in the 3 .csv files.
