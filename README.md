@@ -3,7 +3,9 @@
 ### Updates
 
 22/05/2019: MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation has been accepted as a full paper at ACL 2019. The updated paper can be found here - https://arxiv.org/pdf/1810.02508.pdf
+
 22/05/2019: Dyadic MELD has been released. It can be used to test dyadic conversational models.
+
 15/11/2018: The problem in the train.tar.gz has been fixed. 
 
 ----------------------------------------------------
