@@ -232,7 +232,7 @@ class bc_LSTM:
 	def test_model(self):
 
 		model = load_model(self.PATH)
-		intermediate_layer_model = Model(input=model.input, output=model.get_layer("utter").output)
+		intermediate_layer_model = Model(inputs=model.input, outputs=model.get_layer("utter").output)
 
 		intermediate_output_train = intermediate_layer_model.predict(self.train_x)
 		intermediate_output_val = intermediate_layer_model.predict(self.val_x)
