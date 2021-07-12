@@ -1,5 +1,9 @@
 # MELD: A Multimodal Multi-Party Dataset for Emotion Recognition in Conversation
 
+## Note
+
+:fire: :fire: :fire: For updated baselines please visit this link: [conv-emotion](https://github.com/declare-lab/conv-emotion)
+
 ### Updates
 
 10/10/2020: New paper and SOTA in Emotion Recognition in Conversations on the MELD dataset. Refer to the directory [COSMIC](https://github.com/declare-lab/conv-emotion/tree/master/COSMIC) for the code. Read the paper -- [COSMIC: COmmonSense knowledge for eMotion Identification in Conversations](https://arxiv.org/pdf/2010.02795.pdf).
