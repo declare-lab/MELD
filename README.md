@@ -4,7 +4,11 @@
 
 :fire: :fire: :fire: For updated baselines please visit this link: [conv-emotion](https://github.com/declare-lab/conv-emotion)
 
-### Updates
+## Leaderboard
+
+![](./images/meld.png)
+
+## Updates
 
 10/10/2020: New paper and SOTA in Emotion Recognition in Conversations on the MELD dataset. Refer to the directory [COSMIC](https://github.com/declare-lab/conv-emotion/tree/master/COSMIC) for the code. Read the paper -- [COSMIC: COmmonSense knowledge for eMotion Identification in Conversations](https://arxiv.org/pdf/2010.02795.pdf).
 
@@ -29,7 +33,7 @@ Ghosal, Deepanway, Navonil Majumder, Soujanya Poria, Niyati Chhaya, and Alexande
 Multimodal EmotionLines Dataset (MELD) has been created by enhancing and extending EmotionLines dataset. MELD contains the same dialogue instances available in EmotionLines, but it also encompasses audio and visual modality along with text. MELD has more than 1400 dialogues and 13000 utterances from Friends TV series. Multiple speakers participated in the dialogues. Each utterance in a dialogue has been labeled by any of these seven emotions -- Anger, Disgust, Sadness, Joy, Neutral, Surprise and Fear. MELD also has sentiment (positive, negative and neutral) annotation for each utterance.
 
 ### Example Dialogue
-![](https://github.com/SenticNet/MELD/blob/master/images/emotion_shift.jpeg)
+![](./images/emotion_shift.jpeg)
 
 ### Dataset Statistics
 | Statistics                      | Train   | Dev     | Test    |
@@ -71,7 +75,7 @@ Constraining with these two conditions revealed that in EmotionLines, a few dial
 The paper explaining this dataset can be found - https://arxiv.org/pdf/1810.02508.pdf
 
 ## Download the data
-Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files. Annotations can be found in https://github.com/SenticNet/MELD/tree/master/data/MELD.
+Please visit - http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz to download the raw data. Data are stored in .mp4 format and can be found in XXX.tar.gz files. Annotations can be found in https://github.com/declare-lab/MELD/tree/master/data/MELD.
 
 ## Description of the .csv files
 
