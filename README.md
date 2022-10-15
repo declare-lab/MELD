@@ -4,6 +4,8 @@
 
 :fire: :fire: :fire: For updated baselines please visit this link: [conv-emotion](https://github.com/declare-lab/conv-emotion)
 
+:fire: :fire: :fire: For downloading the data use wget: ```wget http://web.eecs.umich.edu/~mihalcea/downloads/MELD.Raw.tar.gz```
+
 ## Leaderboard
 
 ![](./images/meld.png)
