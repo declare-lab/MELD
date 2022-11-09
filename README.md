@@ -2,7 +2,7 @@
 
 ## Note
 
-:fire: We have released the visual features extracted using Restnet - https://github.com/declare-lab/MM-Align
+:fire: We have released the visual features extracted using Resnet - https://github.com/declare-lab/MM-Align
 
 :fire: :fire: :fire: For updated baselines please visit this link: [conv-emotion](https://github.com/declare-lab/conv-emotion)
 
