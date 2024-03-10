@@ -2,6 +2,7 @@
 
 ## Note
 
+🔥 If you are interested in IQ testing LLMs, check out our new work: [AlgoPuzzleVQA](https://github.com/declare-lab/puzzle-reasoning)
 :fire: We have released the visual features extracted using Resnet - https://github.com/declare-lab/MM-Align
 
 :fire: :fire: :fire: For updated baselines please visit this link: [conv-emotion](https://github.com/declare-lab/conv-emotion)
